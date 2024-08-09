@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapipark_doc=self.webpackChunkapipark_doc||[]).push([[583],{6866:(u,c,e)=>{e.r(c),e.d(c,{default:()=>n});var s=e(6540),a=e(6347);function n(){const u=(0,a.W6)();return(0,s.useEffect)((()=>{u.push("/docs/intro")}),[u]),null}}}]);

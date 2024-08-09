@@ -15,7 +15,7 @@ logs/
 .DS_Store
 Thumbs.db
 desktop.ini
-.well-known
+.well-known/
 
 # 环境变量文件
 .env
@@ -26,7 +26,6 @@ desktop.ini
 
 # 编译输出
 dist/
-build/
 out/
 *.cache
 .temp/
@@ -56,9 +55,3 @@ temp/
 .cache/
 .parcel-cache/
 .pnpm-store/
-
-
-# 静态网站生成器 (如 Docusaurus)
-build/
-.docusaurus/
-site/
