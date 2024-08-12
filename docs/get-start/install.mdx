@@ -1,0 +1,221 @@
+# 部署
+:::tip
+### 硬件最低要求
+* **CPU：** 2核
+* **内存：** 4G
+* **硬盘存储：** 200G
+* **操作系统：** Linux/Mac
+* **系统架构：** amd64/arm64
+:::
+
+## 程序依赖
+
+`APIPark` 依赖 `MYSQL、Redis、InfluxDB` 数据库，下表是数据库所需版本：
+
+<table><thead><tr><th width="184">名称</th><th>版本要求</th></tr></thead><tbody><tr><td>MYSQL</td><td>>=5.7.x</td></tr><tr><td>Redis</td><td>>=6.2.x</td></tr><tr><td>InfluxDB</td><td>>=2.6</td></tr></tbody></table>
+
+## 部署APIPark
+
+您可以选择以下任意一种方式一键部署 `APIPark`（amd64/arm64架构均适用）：
+
+<details>
+<summary>一键部署脚本</summary>
+
+:::note
+支持的系统列表：
+* CentOS 7.9（7.x为代表）
+* CentOS 8.5（8.x为代表）
+* Ubuntu 20.04
+* Ubuntu 22.04
+* Debain 12.4
+* Alibaba Cloud Linux 3.2104
+* Alibaba Cloud Linux 2.1903
+
+当前仅测试了上述部署的安装，若需要其他系统的一键部署，可给我们提交[Issue](https://github.com/APIParkLab/APIPark/issues)。
+:::
+输入一键部署指令：
+```
+curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.sh
+```
+按照提示进行部署即可，部署完成后，将会展示部署信息，如下：
+
+</details>
+
+<details>
+<summary>Docker-Compose</summary>
+:::tip
+在操作前，请确保系统安装完成 [Docker](https://docs.docker.com/engine/) 和 [Docker-Compose](https://docs.docker.com/compose/)。
+:::
+
+1. 编辑 `docker-compose.yml` 文件
+```
+vi docker-compose.yml
+```
+2. 修改文件配置
+```yaml
+version: '3'
+services:
+  apipark:
+    image: eolinker/apipark:${Tag}
+    container_name: apipark
+    privileged: true
+    restart: always
+    networks:
+      - eolink
+    ports:
+      - "18288:8288"
+    depends_on:
+      - mysql
+      - redis_cluster
+    environment:
+      - MYSQL_USER_NAME=root
+      - MYSQL_PWD=${MYSQL_PWD}
+      - MYSQL_IP=mysql
+      - MYSQL_PORT=3306                 #mysql端口
+      - MYSQL_DB="apipark"
+      - ERROR_DIR=/apipark/work/logs  # 日志放置目录
+      - ERROR_FILE_NAME=error.log          # 错误日志文件名
+      - ERROR_LOG_LEVEL=info               # 错误日志等级,可选:panic,fatal,error,warning,info,debug,trace 不填或者非法则为info
+      - ERROR_EXPIRE=7d                    # 错误日志过期时间，默认单位为天，d|天，h|小时, 不合法配置默认为7d
+      - ERROR_PERIOD=day                  # 错误日志切割周期，仅支持day、hour
+      - REDIS_ADDR=redis_cluster:7201,redis_cluster:7202,redis_cluster:7203,redis_cluster:7204,redis_cluster:7205,redis_cluster:7206 #Redis集群地址 多个用,隔开
+      - REDIS_PWD=${REDIS_PWD}                       # Redis密码
+    volumes:
+      - /var/log/eolink/apipark/work:/apipark/work   #挂载log到主机目录
+  mysql:
+    image: mysql:8.0.37
+    privileged: true
+    restart: always
+    container_name: mysql
+    hostname: mysql
+    command:
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+    ports:
+      - "33306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_PWD}
+      - MYSQL_DATABASE=apipark
+    volumes:
+      - /var/lib/eolink/mysql:/var/lib/mysql
+    networks:
+      - eolink
+  redis_cluster:
+    container_name: redis_cluster
+    image: eolinker/cluster-redis:7.2.4
+    hostname: redis_cluster
+    privileged: true
+    restart: always
+    ports:
+      - 7201-7206:7201-7206
+      - 17201-17206:17201-17206
+    networks:
+      - eolink
+    environment:
+      - REDIS_PWD=${REDIS_PWD}
+      - PORT=7201
+      - HOST=redis_cluster
+    volumes:
+      - /var/lib/eolink/redis-cluster/data:/usr/local/cluster_redis/data
+networks:
+  eolink:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.100.0.0/24
+```
+
+
+上述配置文件中，使用 `${}` 包裹的均为变量，需要根据实际情况填写，以下是相关变量说明：
+
+* Tag：`APIPark`镜像版本号。
+* MYSQL_PWD：数据库密码。
+* REDIS_PWD：Redis密码。
+
+修改后的示例配置如下：
+
+```
+version: '3'
+services:
+  apipark:
+    image: eolinker/apipark:v1.0.0
+    container_name: apipark
+    privileged: true
+    restart: always
+    networks:
+      - eolink
+    ports:
+      - "18288:8288"
+    depends_on:
+      - mysql
+      - redis_cluster
+    environment:
+      - MYSQL_USER_NAME=root
+      - MYSQL_PWD=123456
+      - MYSQL_IP=mysql
+      - MYSQL_PORT=3306                 #mysql端口
+      - MYSQL_DB="apipark"
+      - ERROR_DIR=/apipark/work/logs  # 日志放置目录
+      - ERROR_FILE_NAME=error.log          # 错误日志文件名
+      - ERROR_LOG_LEVEL=info               # 错误日志等级,可选:panic,fatal,error,warning,info,debug,trace 不填或者非法则为info
+      - ERROR_EXPIRE=7d                    # 错误日志过期时间，默认单位为天，d|天，h|小时, 不合法配置默认为7d
+      - ERROR_PERIOD=day                  # 错误日志切割周期，仅支持day、hour
+      - REDIS_ADDR=redis_cluster:7201,redis_cluster:7202,redis_cluster:7203,redis_cluster:7204,redis_cluster:7205,redis_cluster:7206 #Redis集群地址 多个用,隔开
+      - REDIS_PWD=123456                       # Redis密码
+    volumes:
+      - /var/log/eolink/apipark/work:/apipark/work   #挂载log到主机目录
+  mysql:
+    image: mysql:8.0.37
+    privileged: true
+    restart: always
+    container_name: mysql
+    hostname: mysql
+    command:
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+    ports:
+      - "33306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=apipark
+    volumes:
+      - /var/lib/eolink/mysql:/var/lib/mysql
+    networks:
+      - eolink
+  redis_cluster:
+    container_name: redis_cluster
+    image: eolinker/cluster-redis:7.2.4
+    hostname: redis_cluster
+    privileged: true
+    restart: always
+    ports:
+      - 7201-7206:7201-7206
+      - 17201-17206:17201-17206
+    networks:
+      - eolink
+    environment:
+      - REDIS_PWD=123456
+      - PORT=7201
+      - HOST=redis_cluster
+    volumes:
+      - /var/lib/eolink/redis-cluster/data:/usr/local/cluster_redis/data
+networks:
+  eolink:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.100.0.0/24
+```
+
+
+为了方便演示，此处MYSQL和Redis的初始密码均设置成了`123456`。
+
+</details>
+
+<details>
+<summary>Docker</summary>
+
+
+</details>
