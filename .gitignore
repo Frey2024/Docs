@@ -55,3 +55,4 @@ temp/
 .cache/
 .parcel-cache/
 .pnpm-store/
+/.docusaurus/
