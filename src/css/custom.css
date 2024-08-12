@@ -57,3 +57,8 @@
 .header-github-link:hover::before {
     background-color: var(--ifm-navbar-link-hover-color);
 }
+
+.col,.container {
+    padding: 1rem 2rem;
+    width: 100%
+}
