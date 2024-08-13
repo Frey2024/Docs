@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "欢迎使用APIPark！为了帮助您快速上手并充分利用平台的功能，我们为您提供了详细的快速入门指南。该指南分为三个主要部分：前置工作、服务提供方、服务订阅方。通过这些步骤，您将了解如何准备环境、发布API服务以及订阅和使用API服务。"
   }
 }
