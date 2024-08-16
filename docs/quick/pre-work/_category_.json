@@ -1,0 +1,8 @@
+{
+  "label": "前置工作",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description":"开始使用APIPark之前，您需要完成一些前置工作。这部分将指导您完成基础设置，确保您拥有顺利的操作体验。"
+  }
+}
