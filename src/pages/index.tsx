@@ -6,7 +6,7 @@ export default function Home() {
 
   useEffect(() => {
     // 当组件加载时，重定向到目标文档页面
-    history.push('/docs/install');
+    history.push('/docs/quick');
   }, [history]);
 
   return null; // 因为会重定向，所以不需要返回任何内容
