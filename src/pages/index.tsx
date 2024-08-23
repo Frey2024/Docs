@@ -11,4 +11,3 @@ export default function Home() {
 
   return null; // 因为会重定向，所以不需要返回任何内容
 }
- 
