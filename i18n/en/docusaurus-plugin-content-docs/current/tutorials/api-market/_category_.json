@@ -1,0 +1,8 @@
+{
+  "label": "API Market",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "The API open platform's service market is a centralized platform for displaying and managing all available API services. It provides developers with a unified interface to browse, search, and subscribe to various API services. The goal of the service market is to simplify the API discovery and usage process, allowing developers to easily find and integrate the APIs they need."
+  }
+}
