@@ -1,19 +1,19 @@
 # Cluster
 
-Set up a cluster to access the API, ensuring that the API runs stably in a distributed environment and can be flexibly expanded and optimized according to business needs.
+Set up a cluster to access the API, allowing the API to run stably in a distributed environment and to flexibly expand and optimize according to business needs.
 
 ## Operation Demonstration
 ### Modify Cluster Configuration
 :::tip
-Ensure there are usable APIPark gateway nodes before configuring.
+Ensure there are available APIPark gateway nodes before configuration.
 :::
-1. Click `System Configuration` -> `Operations & Integration` -> `Cluster`, and then click `Modify Cluster Configuration`.
+1. Click `System Configuration` -> `Operations and Integration` -> `Cluster`, and then click `Modify Cluster Configuration`.
 
 ![](images/2024-08-13/e77d27fa7eb55a6dfda1239772feed8471111cc3959fbf892ef772eda023e5b8.png)  
 
-2. Enter the cluster node Admin address in the pop-up box.
+2. Enter the cluster node's Admin address in the pop-up box.
 :::tip
-If you deploy APIPark gateway nodes using the one-click deployment script, the Admin communication address of the node will be displayed after deployment.
+If you deployed APIPark gateway nodes using the one-click deployment script, the Admin communication address of the node will be displayed after deployment.
 
 ![](images/2024-08-13/69fbddbcdfc141759b8483877dd2b3f3cb91e189df08291ba7159d1aaa155702.png)  
 :::

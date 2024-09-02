@@ -1,10 +1,10 @@
 # HTTP Logs
 
-Collect log information from request gateways and output it to an **HTTP server** for users to perform further operations such as log analysis, etc.
+Collect log information from the request gateway and output it to an **HTTP server**, making it easier for users to perform secondary operations such as log analysis.
 
 ## Features
 
-The HTTP log plugin sends node access logs to an HTTP service interface via HTTP requests. It has the following features:
+The HTTP log plugin sends node access logs to the HTTP service interface via HTTP requests and has the following features:
 
 * Supports multiple request methods, including **POST**, **PUT**, **PATCH**
 * Supports custom request headers
@@ -15,7 +15,7 @@ The HTTP log plugin sends node access logs to an HTTP service interface via HTTP
 
 ### Create a New HTTP Log Configuration
 
-1. Click on the left sidebar `System Settings` -> `Operations & Integration` -> `Logs` -> `HTTP Logs`, then click `Add HTTP Log`.
+1. Click on `System Settings` -> `Operations and Integration` -> `Logs` -> `HTTP Logs` in the left navigation bar, and then click `Add HTTP Log`.
 
 ![](images/2024-08-14/9ac215d01d8cb8b99b7e077de8acd5922b0ccda23fa5184892f4666d199ee51b.png)  
 
@@ -23,15 +23,15 @@ The HTTP log plugin sends node access logs to an HTTP service interface via HTTP
 
 ![](images/2024-08-14/22b5b45bc7207e53b14182cd255f10fae0901b8b84d12db7f9850a7033b7b202.png)  
 
-**Configuration Explanation**:
+**Configuration Description**:
 
-| Field Name  | Description                                                   |
-| ------------| --------------------------------------------------------------|
-| Request Method | The request method used when accessing the HTTP service interface, currently supports POST, PUT, PATCH  |
-| URL         | The complete request path of the HTTP service interface       |
-| Request Header | Header information for the request, can include parameters needed when accessing the HTTP service interface, such as authentication information. Enter in JSON format, with data as `key-value` pairs, such as: `{"from":"apinto"}` |
-| Output Format | Format of the output log content, supports single line, JSON format output |
-| Format Configuration | Output format template, configuration tutorial [click here](https://help.apinto.com/docs/formatter) to jump to |
+| Field Name | Description |
+| ---------- | ------------------------------------------------------------ |
+| Request Method | The request method used when requesting the HTTP service interface, currently supports POST, PUT, PATCH |
+| URL        | Full request path of the HTTP service interface |
+| Request Header | Header information for the request, parameters required when requesting the HTTP service interface, such as authentication information. <br/>Please input in JSON format, data should be in `key-value` format, e.g., `{"from":"apinto"}` |
+| Output Format | Log content output format, supports single line, Json format output |
+| Format Configuration | Output format template, click [here](https://help.apinto.com/docs/formatter) for the tutorial |
 
 **Format Configuration Example**
 
@@ -76,12 +76,12 @@ The HTTP log plugin sends node access logs to an HTTP service interface via HTTP
 }
 ```
 
-3. Click `Submit`, the HTTP log is added successfully.
+3. After clicking `Submit`, the HTTP log is added successfully.
 
 ![](images/2024-08-14/6b4bc8b69dce0d4611e09cbd84939df864aaf5c0a77983b3b06a84019dd955dd.png)  
 
-### Go Live
+### Launch
 
-1. Click the `Go Live` button next to the configuration to be deployed.
+1. Click the `Launch` button after the configuration to be launched.
 
 ![](images/2024-08-14/7553b15c5fa421b0e9fd429f447eccd442c30739ed8d47cc51b13c7386b7c18d.png)  

@@ -1,78 +1,35 @@
-# API
+---
+sidebar_position: 3
+---
 
-The API is a core component of `APIPark`, connecting various services and applications through standardized interfaces to enable data sharing and function calls. The API provides an efficient, secure, and scalable communication mechanism that supports a microservices architecture, enhances user experience, and fosters innovation and development.
+# Configure API (OpenAPI)
 
-In **APIPark**, the API is not just a bridge between systems but a fundamental part of building an efficient, flexible, and innovative ecosystem. With well-designed and managed APIs, the platform can achieve high interoperability and scalability, offering excellent service experiences to users and developers.
+**OpenAPI** is a widely used specification for describing and documenting RESTful APIs. Originally known as **Swagger**, the OpenAPI Specification (OAS) provides a structured way to define an API's interface, including its endpoints, operations, requests, responses, and other associated metadata. OpenAPI aims to make the design, development, documentation generation, and testing of APIs simpler and more consistent.
 
-## Operational Demonstration
-### Adding an API
+**APIPark** supports OpenAPI V2.0 and V3.0 formats, allowing you to upload OpenAPI YAML files to create API documentation.
 
-1. Select the service you need to configure and enter the internal page of the service.
+The API documentation configured within the service will be displayed in the service plaza after publishing, as shown below:
 
-![Image](images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)
+![](images/2024-09-02/baa97b03fc9b42f29fed67ff53b778ff4a94ca26f8cda55868904f18ac2ed638.png)  
 
-2. Click `Add API`.
+## Steps
 
-![Image](images/2024-08-14/f2448c1c54a34932439231c739c511bd46c1dfec5e0ba7c90d892b598567c6db.png)
+1. Select the service you want to configure and enter the service page.
 
-3. Enter the API information in the popup box, and click `Submit` after completing the form.
+![](images/2024-09-02/ec8003d81a786b86290ade6616d3c8ca4dcf4b8279c6aa25ee9bc19a2b96f5e2.png)  
 
-![Image](images/2024-08-14/3ec5df3d14e4d4ba7545dbb42670e78cc9acb6a6170630458cb2f46903959774.png)
+2. Click `API` to enter the API page.
 
-**Field Descriptions**
+![](images/2024-09-02/90c505f86e8dbfb42b5d05d085c37ce51080fc0019c96f5e325a350357e02dc7.png)  
 
-| Field Name          | Description                                                                         |
-|---------------------|-------------------------------------------------------------------------------------|
-| API Name            | The name used to identify the API; can be named based on its purpose or function.   |
-| Description         | A detailed description of the API.                                                  |
-| Request Method      | The request method used by the client.                                              |
-| Request Path        | The path of the client's request, concatenated with the service prefix.             |
-| Advanced Matching   | More custom routing rules for client requests.                                      |
-| Upstream Path       | The path forwarded to the upstream, which may differ from the request path.         |
-| Request Timeout     | The timeout for forwarding the request to the upstream service, in milliseconds.    |
-| Retry Count         | The number of times the request is resent in case of a timeout.                     |
+3. Click `Open Editor`
 
-### Editing an API
+![](images/2024-09-02/cc27f4a27c6e7a15e18fbc5598cc601b9c2cfbd4e49180365a6355553ecb3213.png)  
 
-1. Click the `Edit` button next to the API you want to edit.
+4. Write the OpenAPI document in the editor.
 
-![Image](images/2024-08-14/41f8a41c79d9d4a1c363d12798c7ce1986f240e615082feb7c5bef96e967a216.png)
+![](images/2024-09-02/2077700340a75dbe2e8d133c273c90e82d9525edff42768c969239f988f647c4.png)  
 
-2. Fill in the API document information, including parameters and return values required by the client request.
+After writing, click save.
 
-![Image](images/2024-08-14/5d379ab1769b312e7b0015249f65bdebbe7bd32846ccd11e78f64e3bdcfd3eb8.png)
-
-This documentation will be displayed in the service plaza for subscribers to understand how to call the subscribed API.
-
-### Copying an API
-
-1. Click the `Copy` button next to the API you want to copy.
-
-![Image](images/2024-08-14/3edb3a4f4afaa384d9a9b99b2e2acf5b6246fb25edaf3bc34e1919d5dfa2b443.png)
-
-2. Fill in the basic API information in the popup box.
-
-![Image](images/2024-08-14/32522186e07f8a6bda26790d0531086940c2c39b9558dfae9c643c05d8c2a98a.png)
-
-**Field Descriptions**
-
-| Field Name          | Description                                                                               |
-|---------------------|-------------------------------------------------------------------------------------------|
-| API Name            | The name used to identify the API; can be named based on its purpose or function.         |
-| Description         | A detailed description of the API.                                                        |
-| Request Method      | The request method used by the client.                                                    |
-| Request Path        | The path for client requests, concatenated with the organization and service prefixes.    |
-| Advanced Matching   | More custom routing rules for client requests.                                            |
-
-After completing the form, click `Confirm`. 
-
-The newly added API will be globally deduplicated based on the request method and request path. Apart from the basic information, other settings such as forwarding path, retry count, API documentation, and so on will be copied to the new API.
-
-### Deleting an API
-1. Click the `Delete` button next to the API you want to delete.
-
-![Image](images/2024-08-14/03eddc92ac67816a8f0f6959d272076460112ecef284eb55e7e100921f76374f.png)
-
-2. Click `Confirm` in the popup box.
-
-![Image](images/2024-08-14/c8a6a3ef88e166476b267c09389562b403bafefc771f24fb8af89bcf6d365f85.png)
+![](images/2024-09-02/f39d21d6c2b4b1a01fbe6d5c430ce41941f4aced999313698884730f6465d8a0.png)  

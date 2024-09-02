@@ -1,8 +1,8 @@
 {
-  "label": "Service",
+  "label": "Services",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "The service module allows teams to create and manage multiple services, each of which can be linked to multiple APIs. Users can showcase services in the service marketplace for subscribers to subscribe on demand. After submitting a subscription request, it must be approved by an administrator. Once approved, the subscriber can access all APIs under that service. Through this module, teams can flexibly manage and publish APIs, while subscribers can conveniently obtain the services they need, enhancing API usage efficiency and team collaboration capabilities."
+    "description": "The services module allows teams to create and manage multiple services, each of which can be bound to multiple APIs. Users can display services in the service plaza for subscribers to subscribe as needed. After a subscription application is submitted, it requires administrator approval; once approved, subscribers can access all APIs under that service. Through this module, teams can flexibly manage and publish APIs, while subscribers can easily obtain the services they need, enhancing API usage efficiency and team collaboration capabilities."
   }
 }

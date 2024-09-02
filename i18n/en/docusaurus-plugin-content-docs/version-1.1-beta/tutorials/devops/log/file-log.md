@@ -1,37 +1,37 @@
 # File Logging
 
-Collect log information of the request gateway and output it to a file for developers to query.
+Collect and output log information from the request gateway into files for developers to review.
 
 ## Features
 
-File Logging: Outputs request information to a log file with the following features:
+File Logging: Outputs request information to log files with the following features:
 
-* Customize the directory and filename for storing files
-* Split log files according to a certain cycle to avoid the problem of a single file being too large to view
-* Regularly delete expired files to reduce hard disk space expenses
+* Customize the directory and file name for storage
+* Split log files periodically to avoid large files that are hard to view
+* Scheduled deletion of expired files to reduce hard drive space usage
 
 ## Operation Demonstration
 
-### Create New File Logging Configuration
+### Create a New File Log Configuration
 
-1. Click on `System Settings` -> `Operations and Integration` -> `Logs` -> `File Logging` in the left navigation bar, and then click `Add File Logging`.
+1. Click `System Settings` -> `Operations and Integration` -> `Logs` -> `File Logs` on the left navigation bar, then click `Add File Log`.
 
 ![](images/2024-08-14/e3179cdf3f75ff815697f271fd21cebe598b5c1a473be9668acd35c15b27cfca.png)  
 
-2. Fill in the file logging configuration.
+2. Fill in the File Log Configuration
 
 ![](images/2024-08-14/1e89c4f712e14377b15a86680c90626f590e9a3dca1cf74d71f106303249788c.png)  
 
 **Configuration Explanation**:
 
-| Field Name     | Description                                                    |
-| -------------- | -------------------------------------------------------------- |
-| File Name      | Stored file name; the actual stored name will have a `.log` suffix, i.e., \{file name\}.log |
-| Directory      | File storage directory; supports relative and absolute paths   |
-| Log Split Cycle| Create new log files according to a certain cycle; old files will be renamed. Options: Hour, Day |
-| Expiry Time    | File retention time, in days. Files exceeding the retention time will be regularly cleaned and deleted |
-| Output Format  | Log content output format, supports single-line and JSON format output |
-| Formatting Configuration | Output format template. Configuration tutorial [click here](https://help.apinto.com/docs/formatter) to jump |
+| Field Name   | Description                                                   |
+| ------------ | ------------------------------------------------------------- |
+| File Name    | The stored file name, the actual stored name will have a `.log` suffix, i.e., \{File Name\}.log |
+| Storage Directory | The directory where files are stored, supports relative and absolute paths |
+| Log Splitting Cycle | Create new log files periodically, old log files will be renamed, options: Hour, Day |
+| Expiry Time  | File retention time, in days, files exceeding this will be deleted periodically |
+| Output Format | Format of output log content, supports Line, Json format    |
+| Formatting Configuration | Template for output format, tutorial [click here](https://help.apinto.com/docs/formatter) to navigate |
 
 **File Lifecycle Demonstration**
 
@@ -80,24 +80,24 @@ File Logging: Outputs request information to a log file with the following featu
 }
 ```
 
-After completing, click `Submit`.
+After filling it out, click `Submit`.
 
 ### Go Live
 
-1. Click the `Go Live` button next to the configuration waiting to be launched.
+1. Click the `Go Live` button next to the configuration you want to launch.
 
 ![](images/2024-08-14/09046b548e25f27fa9be3a11bb4202273229146304828187ecc9136213af96b8.png)  
 
-### Access Interface, Print Log Output
+### Access the Interface and Print Log Output
 
-> **Prerequisite:**
+> **Prerequisites:**
 >
-> 1. You have completed the service subscription process, and the service provider has approved the subscription application. If not, refer to the tutorial [Subscribe Service](../../../quick/suberscriber/subscribe.md).
+> 1. You have completed the service subscription process, and the service provider has approved the subscription request. If not, refer to the tutorial [Subscribe to Service](../../../quick/suberscriber/subscribe.md).
 
-Access the subscribed interface. Here we use the `Apikit` test function for demonstration.
+Access the subscribed interface. Here we demonstrate using Apikit's testing feature.
 
 ![img](http://data.eolinker.com/course/l2sHmd3600aeebb248a48629498f4a0ab9e2529ac1e3587.png)
 
-After accessing, enter the node directory to view the access log output information, as shown below.
+After access, enter the node directory and check the access log output information, as shown below
 
 ![img](http://data.eolinker.com/course/d5ryFin9e200c902beea742b311944041249ce19732bb28.png)

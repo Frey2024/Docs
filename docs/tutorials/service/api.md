@@ -1,69 +1,34 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# API
+# 配置API（OpenAPI）
 
-API 是`APIPark`的核心组成部分，通过标准化的接口，连接各类服务和应用，实现数据共享和功能调用。API 提供了高效、安全、可扩展的通信机制，支持微服务架构，提升用户体验，促进创新和开发。
+**OpenAPI** 是一个广泛使用的规范，用于描述和文档化 RESTful API。最初被称为 **Swagger**，OpenAPI 规范（OpenAPI Specification, OAS）提供了一种结构化的方式来定义 API 的接口，包括它的端点、操作、请求、响应以及其他相关的元数据。OpenAPI 旨在使 API 的设计、开发、文档生成和测试变得更简单、更一致。
 
-在**APIPark**中，API 不仅是系统之间的桥梁，更是构建高效、灵活、创新生态系统的基础。通过良好的 API 设计和管理，平台可以实现高度的互操作性和可扩展性，为用户和开发者提供卓越的服务体验。
+**APIPark**支持 OpenAPI V2.0、V3.0 格式，可以上传 OpenAPI YAML 文件创建 API 文档。
 
-## 操作演示
-### 添加API
+在服务内配置的API文档在发布后，将会在服务广场中展示，如下图：
 
-1. 选中需要配置的服务，进入服务内部页面。
+![](images/2024-09-02/baa97b03fc9b42f29fed67ff53b778ff4a94ca26f8cda55868904f18ac2ed638.png)  
 
-![](images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)
+## 操作步骤
+1. 选择需要配置的服务，进入服务内页。
 
-2. 点击`添加API`。
+![](images/2024-09-02/ec8003d81a786b86290ade6616d3c8ca4dcf4b8279c6aa25ee9bc19a2b96f5e2.png)  
 
-![](images/2024-08-14/f2448c1c54a34932439231c739c511bd46c1dfec5e0ba7c90d892b598567c6db.png)  
+2. 点击`API`，进入API页面。
 
-3. 在弹出框中输入API信息，填写完成后点击`提交`。
+![](images/2024-09-02/90c505f86e8dbfb42b5d05d085c37ce51080fc0019c96f5e325a350357e02dc7.png)  
 
-![](images/2024-08-14/3ec5df3d14e4d4ba7545dbb42670e78cc9acb6a6170630458cb2f46903959774.png)  
+3. 点击`打开编辑器`
 
-**字段说明**
+![](images/2024-09-02/cc27f4a27c6e7a15e18fbc5598cc601b9c2cfbd4e49180365a6355553ecb3213.png)  
 
-<table><thead><tr><th width="195">字段名</th><th>说明</th></tr></thead><tbody><tr><td>API名称</td><td>用于标识API的名称，可按作用、功能命名。</td></tr><tr><td>描述</td><td>记录API的详细说明。</td></tr><tr><td>请求方式</td><td>客户端请求的请求方式。</td></tr><tr><td>请求路径</td><td>客户端请求的请求路径，该路径将会和服务前缀进行拼接。</td></tr><tr><td>高级匹配</td><td>可针对客户端请求定制更多的路由匹配规则。</td></tr><tr><td>转发上游路径</td><td>转发到上游的路径，可与请求路径不一致。</td></tr><tr><td>请求超时时间</td><td>转发请求到上游服务的超时时间，单位：ms。</td></tr><tr><td>重试次数</td><td>当请求超时时，重新转发请求的次数。</td></tr></tbody></table>
+4. 在编辑器中编写OpenAPI文档。
 
-### 编辑API
+![](images/2024-09-02/2077700340a75dbe2e8d133c273c90e82d9525edff42768c969239f988f647c4.png)  
 
-1. 点击待编辑API后方的`编辑`按钮。
+编写完后，点击保存。
 
-![](images/2024-08-14/41f8a41c79d9d4a1c363d12798c7ce1986f240e615082feb7c5bef96e967a216.png) 
-
-2. 填写API文档信息，内容包括请求参数、返回值等客户端请求所需要传递的参数信息。
-
-![](images/2024-08-14/5d379ab1769b312e7b0015249f65bdebbe7bd32846ccd11e78f64e3bdcfd3eb8.png)  
-
-此处的文档内容将会展示在服务广场中，供服务订阅方去了解如何调用订阅的API。
-
-### 复制API
-
-1. 点击待复制API后方的`复制`按钮。
-
-![](images/2024-08-14/3edb3a4f4afaa384d9a9b99b2e2acf5b6246fb25edaf3bc34e1919d5dfa2b443.png)  
-
-
-2. 在弹出框中填写API基础信息。
-
-![](images/2024-08-14/32522186e07f8a6bda26790d0531086940c2c39b9558dfae9c643c05d8c2a98a.png)  
-
-
-**字段说明**
-
-<table><thead><tr><th width="195">字段名</th><th>说明</th></tr></thead><tbody><tr><td>API名称</td><td>用于标识API的名称，可按作用、功能命名。</td></tr><tr><td>描述</td><td>记录API的详细说明。</td></tr><tr><td>请求方式</td><td>客户端请求的请求方式。</td></tr><tr><td>请求路径</td><td>客户端请求的请求路径，该路径将会和组织前缀、服务前缀进行拼接。</td></tr><tr><td>高级匹配</td><td>可针对客户端请求定制更多的路由匹配规则。</td></tr></tbody></table>
-
-填写完成后，点击`确认`即可。
-
-新添加的API会根据请求方式、请求路径进行全局查重。除了基础信息，其余将会一同复制到新的API，包括转发路径、重试次数、API文档等。
-
-### 删除API
-1. 点击待删除API后方的`删除`按钮。
-
-![](images/2024-08-14/03eddc92ac67816a8f0f6959d272076460112ecef284eb55e7e100921f76374f.png)  
-
-2. 在弹出框中点击`确认`。
-
-![](images/2024-08-14/c8a6a3ef88e166476b267c09389562b403bafefc771f24fb8af89bcf6d365f85.png)  
+![](images/2024-09-02/f39d21d6c2b4b1a01fbe6d5c430ce41941f4aced999313698884730f6465d8a0.png)  

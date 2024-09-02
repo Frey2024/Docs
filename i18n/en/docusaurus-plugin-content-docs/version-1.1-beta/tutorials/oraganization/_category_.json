@@ -3,6 +3,6 @@
   "position": 7,
   "link": {
     "type": "generated-index",
-    "description": "The organization module ensures system security and efficient operation through centralized management of members, roles, and permissions. It implements refined access control, ensuring each member can only access and operate within their authorized scope, enhancing management transparency and flexibility, optimizing organizational structure, and improving overall operational efficiency."
+    "description": "The organization module ensures system security and efficient operation by centrally managing members, roles, and resources. It implements fine-grained permission control to ensure each member can only access and operate within their authorized scope, enhancing management transparency and flexibility, optimizing the organizational structure, and improving overall operational efficiency."
   }
 }

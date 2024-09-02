@@ -1,22 +1,22 @@
-# NSQ Logs
+# NSQ Log
 
 ## Introduction
 
-Collect log information from the request gateway and output it to `NSQ` for easy secondary operations such as log analysis.
+Collect log information from the request gateway and output it to `NSQ`, making it convenient for users to perform secondary operations such as log analysis.
 
 ## Features
 
-It can output the log content generated during the program run to a specified `NSQ Topic`.
+Allows the log content generated during the program execution to be output to a specified `NSQ` Topic.
 
-* Supports entering multiple `NSQD` request addresses
-* Supports log output format types
-* Supports custom log format configuration
+* Supports multiple `NSQD` request addresses
+* Supports different log output formats
+* Allows custom log formatting configuration
 
-## Operation Demonstration
+## Operation Demo
 
-### Create a New NSQ Log Configuration
+### Create NSQ Log Configuration
 
-1. Click on `Operations and Integration` -> `Log Configuration` -> `NSQ Logs` in the left navigation bar, and then click `Add NSQ Log`.
+1. Click on `Operations & Integration` -> `Log Configuration` -> `NSQ Log` in the left navigation bar, and click `Add NSQ Log`.
 
 ![](images/2024-08-14/1c488fb8e1e3c628f571a11f913f5d2eb101bedfcc3ca7fcd3d3b9d5944a24b2.png)  
 
@@ -24,15 +24,15 @@ It can output the log content generated during the program run to a specified `N
 
 ![](images/2024-08-14/63aed79341137d9003274995f2458facd4ccaf66b5f988aff791d7d8a8d54f5b.png)  
 
-**Configuration Description**:
+**Configuration Explanation**:
 
-| Field Name   | Description                                                 |
-| ------------ | ------------------------------------------------------------ |
-| NSQD Address List | List of addresses where NSQD provides TCP services. Multiple addresses are supported. |
-| Topic        | NSQD's Topic information                                     |
-| Auth Secret  | The authentication key information for accessing NSQD        |
-| Output Format| The format for the output log content, supporting single line and JSON formats |
-| Format Configuration | Output format template, configuration tutorial [click here](https://help.apinto.com/docs/formatter) for more information |
+| Field Name      | Description                                                 |
+| --------------- | ----------------------------------------------------------- |
+| NSQD Address List | List of TCP service addresses provided by NSQD, supporting multiple addresses |
+| Topic           | Topic information of NSQD                                    |
+| Authentication Secret | Authentication key information for accessing NSQD         |
+| Output Format   | Format of the output log content, supporting single line and JSON formats |
+| Format Configuration | Output format template. For the configuration guide, [click here](https://help.apinto.com/docs/formatter) to navigate |
 
 **Sample Format Configuration**
 
@@ -77,11 +77,12 @@ It can output the log content generated during the program run to a specified `N
 }
 ```
 
-3. Click `Submit` to complete the NSQ log configuration.
+3. After clicking `Submit`, the NSQ log configuration is completed.
 
 ![](images/2024-08-14/9ab0f9f94698248c7d7011020c33bb6604ac39fa2fdaba4c480d3cc862e54cab.png)  
 
 ### Go Live
-1. Click the `Go Live` button next to the configuration that is ready to go live.
+
+1. Click the `Go Live` button next to the configuration to be launched.
 
 ![](images/2024-08-14/bfdfcaed659de3734316e9dbe8f4604a3e5e5d536a6ea9d709d7290e886c8966.png)  
