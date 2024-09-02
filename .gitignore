@@ -56,3 +56,4 @@ temp/
 .parcel-cache/
 .pnpm-store/
 /.docusaurus/
+/build/

@@ -1,0 +1,9 @@
+{
+  "label": "🚀 快速入门",
+  "collapsible":false,
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "README"
+  }
+}

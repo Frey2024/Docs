@@ -4,67 +4,67 @@
     "description": "The label for version 1.0-beta"
   },
   "sidebar.tutorialSidebar.category.🚀 快速入门": {
-    "message": "🚀 快速入门",
+    "message": "🚀 Quick Start",
     "description": "The label for category 🚀 快速入门 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.前置工作": {
-    "message": "前置工作",
+    "message": "Preparatory Work",
     "description": "The label for category 前置工作 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.前置工作.link.generated-index.description": {
-    "message": "开始使用APIPark之前，您需要完成一些前置工作。这部分将指导您完成基础设置，确保您拥有顺利的操作体验。",
+    "message": "Before starting with APIPark, you need to complete some preparatory work. This section will guide you through the basic setup to ensure a smooth experience.",
     "description": "The generated-index page description for category 前置工作 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.服务提供方入门": {
-    "message": "服务提供方入门",
+    "message": "Service Provider Introduction",
     "description": "The label for category 服务提供方入门 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.服务提供方入门.link.generated-index.description": {
-    "message": "作为服务提供方，您将发布和管理API服务，供其他用户或系统调用。",
+    "message": "As a service provider, you will publish and manage API services for other users or systems to call.",
     "description": "The generated-index page description for category 服务提供方入门 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.服务订阅方入门": {
-    "message": "服务订阅方入门",
+    "message": "Service Subscriber Introduction",
     "description": "The label for category 服务订阅方入门 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.服务订阅方入门.link.generated-index.description": {
-    "message": "作为服务订阅方，您可以订阅和使用API服务，实现与其他系统的集成。",
+    "message": "As a service subscriber, you can subscribe to and use API services to integrate with other systems.",
     "description": "The generated-index page description for category 服务订阅方入门 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.📖 教程": {
-    "message": "📖 教程",
+    "message": "📖 Tutorial",
     "description": "The label for category 📖 教程 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.📖 教程.link.generated-index.description": {
-    "message": "欢迎使用 APIPark为了帮助您快速上手并充分利用平台的功能，我们为您提供了详细的教程。",
+    "message": "Welcome to APIPark, to help you get started quickly and make the most of the platform's features, we provide you with detailed tutorials.",
     "description": "The generated-index page description for category 📖 教程 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.团队": {
-    "message": "团队",
+    "message": "Team",
     "description": "The label for category 团队 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.团队.link.generated-index.description": {
-    "message": "APIPark 中的团队模块是一个高效的协作工具，旨在按团队创建和管理服务。通过团队模块，企业可以根据项目需求组建不同的团队，每个团队可以独立管理其 API 服务。",
+    "message": "The team module in APIPark is an efficient collaboration tool designed to create and manage services by team. Through the team module, enterprises can establish different teams based on project needs, with each team independently managing its API services.",
     "description": "The generated-index page description for category 团队 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.服务": {
-    "message": "服务",
+    "message": "Service",
     "description": "The label for category 服务 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.服务.link.generated-index.description": {
-    "message": "服务模块允许团队创建和管理多个服务，每个服务可以绑定多个API。用户可以将服务展示在服务广场中，供订阅者按需订阅。订阅申请提交后，需经管理员审批，通过后订阅者即可访问该服务下的所有API。通过这一模块，团队能够灵活管理和发布API，订阅者则能方便地获取所需服务，提升了API使用效率和团队协作能力。",
+    "message": "The service module allows teams to create and manage multiple services, each service can bind multiple APIs. Users can display the service in the service square for subscribers to subscribe as needed. After subscription applications are submitted, they need administrator approval, and upon approval, subscribers can access all APIs under the service. Through this module, teams can flexibly manage and publish APIs, and subscribers can easily access the required services, improving API usage efficiency and team collaboration capabilities.",
     "description": "The generated-index page description for category 服务 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.应用": {
-    "message": "应用",
+    "message": "Application",
     "description": "The label for category 应用 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.应用.link.generated-index.description": {
-    "message": "在 `APIPark`中，**应用** 是服务订阅方用来管理和组织 API 订阅的单位。每个订阅方可以创建和管理多个应用，并且在订阅 API 服务时以应用为单位进行操作。通过这种方式，可以灵活地管理不同项目或业务线的 API 订阅和调用。",
+    "message": "In `APIPark`, **applications** are units used by service subscribers to manage and organize API subscriptions. Each subscriber can create and manage multiple applications, and subscribe to API services on an application basis. In this way, API subscriptions and calls for different projects or business lines can be managed flexibly.",
     "description": "The generated-index page description for category 应用 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.访问授权": {
-    "message": "访问授权",
+    "message": "Access Authorization",
     "description": "The label for category 访问授权 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API Market": {
@@ -72,31 +72,31 @@
     "description": "The label for category API Market in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API Market.link.generated-index.description": {
-    "message": "API开放平台的服务市场是一个集中的平台，用于展示和管理所有可用的API服务。它为开发者提供了一个统一的界面，可以浏览、搜索和订阅各种API服务。服务市场的目标是简化API的发现和使用过程，使开发者能够轻松找到并集成所需的API。",
+    "message": "The service market of the API open platform is a centralized platform for displaying and managing all available API services. It provides developers with a unified interface to browse, search, and subscribe to various API services. The goal of the service market is to simplify the API discovery and usage process, enabling developers to easily find and integrate the required APIs.",
     "description": "The generated-index page description for category API Market in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.运维与集成": {
-    "message": "运维与集成",
+    "message": "Operations and Integration",
     "description": "The label for category 运维与集成 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.运维与集成.link.generated-index.description": {
-    "message": "运维与集成模块专注于平台的稳定运行和系统的无缝集成。它涵盖集群管理、SSL证书管理、日志监控与管理、OpenAPI管理等关键功能。通过实时监控系统状态、管理证书和日志，确保系统的高可用性和安全性。同时，提供开放接口，实现与其他系统的无缝对接，支持多样化业务需求，提升运维效率和系统集成能力。",
+    "message": "Operations and Integration module focuses on the stable operation of the platform and seamless integration with systems. It covers cluster management, SSL certificate management, log monitoring and management, OpenAPI management, and other key functions. By monitoring system status in real time, managing certificates and logs, ensuring the system's high availability and security. At the same time, it provides open interfaces for seamless integration with other systems, supporting diverse business needs, and improving operational efficiency and system integration capabilities.",
     "description": "The generated-index page description for category 运维与集成 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.日志": {
-    "message": "日志",
+    "message": "Log",
     "description": "The label for category 日志 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.组织": {
-    "message": "组织",
+    "message": "Organization",
     "description": "The label for category 组织 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.组织.link.generated-index.description": {
-    "message": "组织模块通过集中管理成员、角色和，确保系统的安全性和高效运作。它实现了精细化的权限控制，确保每个成员只能访问和操作其权限范围内的功能，提升管理透明度和灵活性，优化组织架构，提高整体运作效率。",
+    "message": "The organization module ensures the security and efficient operation of the system through centralized management of members, roles, and permissions. It achieves refined permission control, ensuring each member can only access and operate within their authorized range, enhancing transparency, and flexibility, optimizing organizational structure, and improving overall operational efficiency.",
     "description": "The generated-index page description for category 组织 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🔖 术语": {
-    "message": "🔖 术语",
+    "message": "🔖 Terminology",
     "description": "The label for category 🔖 术语 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.🔖 术语.link.generated-index.description": {

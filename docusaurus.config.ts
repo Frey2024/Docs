@@ -27,20 +27,6 @@ const config: Config = {
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans','en'],
-    localeConfigs: {
-      'zh-Hans': {
-        label: '简体中文',
-        direction: 'ltr',
-        htmlLang: 'zh-Hans',
-        calendar: 'gregory',
-      }, 
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en',
-        calendar: 'gregory',
-      },
-    }
   },
 
   presets: [
@@ -58,6 +44,10 @@ const config: Config = {
             },
           },
         },
+        gtag: {
+          trackingID: 'G-26DCQT45GT',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -65,7 +55,14 @@ const config: Config = {
     ],
   ],
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'G-26DCQT45GT',
+        anonymizeIP: true,
+      },
+    ],
   ],
   themeConfig: {
     navbar: {

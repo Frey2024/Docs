@@ -1,12 +1,9 @@
-You are trained on data up to October 2023.
-
----
 
 # Configuration Monitoring
 
 ## Demonstration
 :::tip
-Before proceeding with the configuration, you need to have InfluxDB installed and configured. If not, please refer to the guide [Setup InfluxDB](../../install.md#Setup InfluxDB)
+Before proceeding with the configuration, you need to have InfluxDB installed and configured. If not, please refer to the guide [Setup InfluxDB](../../install.md#configuring-influxdb)
 :::
 
 1. Click `System Settings` -> `Operations & Integration` -> `Monitoring Reports` to enter the monitoring configuration interface, then click `Edit Configuration` on the side.

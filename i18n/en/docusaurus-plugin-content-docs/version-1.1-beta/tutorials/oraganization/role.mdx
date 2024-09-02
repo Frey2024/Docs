@@ -1,0 +1,104 @@
+# Roles
+
+The Roles module is used to define and manage roles at the system and team levels and their corresponding permissions. Through the Roles module, administrators can flexibly control user access to system and team resources, ensuring security and management efficiency.
+
+## Functional Description:
+
+1. **System-Level Role Management**:
+   - **Create and Edit Roles**: Administrators can create new system-level roles or edit existing ones. Each role can have different permissions set, covering various functions and resources within the system.
+   - **Permissions Configuration**: The permissions configuration for system-level roles is flexible and supports fine-grained permission allocation to ensure that each role can only access the resources and functions within its scope of responsibilities.
+
+2. **Team-Level Role Management**:
+   - **Create and Edit Team Roles**: Administrators can create and manage team-level roles according to the needs of the teams. Each team role can have different permissions settings to meet internal management needs.
+   - **Permissions Configuration**: The permissions configuration for team-level roles allows detailed permissions settings for resources and functions within the team to ensure efficient collaboration among team members.
+
+3. **Permissions Management**:
+   - **Fine-Grained Permissions Control**: Supports fine-grained permissions control of system functions and data, enabling administrators to flexibly adjust the permissions settings for each role based on actual needs.
+
+4. **Role and Member Association**:
+   - **System Role Assignment**: In the member management module, administrators can assign system-level roles to members, enabling them to access and operate system-level resources and functions.
+   - **Team Role Assignment**: In the team module's member management functionality, administrators can assign team-level roles to members, granting them the corresponding permissions within the team to support effective team operations.
+
+## Overview of Role Permissions
+### System-Level Permissions
+
+|   |   |   | Super Administrator (Cannot be deleted/modified) | Team Administrator | Operations Administrator | [Default] Regular Member |
+|---|---|---|---|---|---|---|
+| **Organization** | **Members** | View | ✔ |   |   |   |
+|   |   | Manage | ✔ |   |   |   |
+|   | **Teams** | View | ✔ | ✔ |   |   |
+|   |   | Manage | ✔ | ✔ |   |   |
+|   | **Roles** | View System Roles | ✔ |   |   |   |
+|   |   | View Team Roles | ✔ | ✔ |   |   |
+| **API Marketplace** | **Service Classification** | View | ✔ |   | ✔ |   |
+|   |   | Manage | ✔ | ✔ |   |   |
+| **Operations** | **Cluster** | View | ✔ |   | ✔ |   |
+|   |   | Manage | ✔ |   | ✔ |   |
+|   | **SSL Certificate** | View | ✔ |   | ✔ |   |
+|   |   | Manage | ✔ |   | ✔ |   |
+|   | **Logs** | View | ✔ |   | ✔ |   |
+|   |   | Manage | ✔ |   | ✔ |   |
+|   | **OpenAPI** | View | ✔ |   | ✔ |   |
+|   |   | Manage | ✔ |   | ✔ |   |
+| **Dashboard** | **Running View** | View | ✔ |   | ✔ |   |
+|   | **System Topology** | View | ✔ |   | ✔ |   |
+| **Workspace** | **Applications** | View all applications (if unchecked, only shows joined ones) | ✔ | ✔ | ✔ |   |
+|   | **Services** | View all services (if unchecked, only shows joined ones) | ✔ | ✔ | ✔ |   |
+|   | **Team** | View all teams (if unchecked, only shows joined ones) | ✔ | ✔ | ✔ |   |
+|   | **API Marketplace** | View | ✔ | ✔ | ✔ | ✔ |
+
+### Team-Level Permissions
+
+|   |   |   | Team Administrator | Service Administrator | Service Developer | Application Administrator | [Default] Application Developer |
+|---|---|---|---|---|---|---|---|
+| **Service** | **API** | View | ✔ | ✔ | ✔ |   |   |
+|   |   | Manage | ✔ | ✔ | ✔ |   |   |
+|   | **Upstream** | View | ✔ | ✔ | ✔ |   |   |
+|   |   | Manage | ✔ | ✔ | ✔ |   |   |
+|   | **Release** | View | ✔ | ✔ | ✔ |   |   |
+|   |   | Manage | ✔ | ✔ | ✔ |   |   |
+|   | **Subscriber Management (including Subscriber Approval and Subscriber List)** | View | ✔ | ✔ |   |   |   |
+|   |   | Manage | ✔ | ✔ |   |   |   |
+|   | **Service Management** | Manage (add, edit, delete services) | ✔ | ✔ |   |   |   |
+| **Application** | **Subscribe Service** | View | ✔ |   |   | ✔ | ✔ |
+|   |   | Manage | ✔ |   |   | ✔ | ✔ |
+|   | **Access Authorization** | View | ✔ |   |   | ✔ | ✔ |
+|   |   | Manage | ✔ |   |   | ✔ |   |
+|   | **Application Management** | Manage (add, edit, delete applications) | ✔ |   |   | ✔ |   |
+| **Team** | **Members** | View | ✔ | ✔ | ✔ | ✔ | ✔ |
+|   |   | Manage | ✔ |   |   |   |   |
+|   | **Team Management** | View | ✔ |   |   |   |   |
+|   |   | Manage (edit, delete team) | ✔ |   |   |   |   |
+  
+## Operation Demonstration
+
+### View Role Permissions
+1. Click on `System Settings` -> `Organization` -> `Roles`, to access the role list page.
+
+2. Click the `View` button behind the role to enter the role details page.
+
+### Modify Member System Roles
+:::tip
+The current user needs to have system-level permissions: `Organization` -> `Members` -> `Manage`.
+:::
+
+1. Click on `System Settings` -> `Organization` -> `Members`, to access the member list page.
+
+2. Click the member whose role you want to modify to assign the member role.
+
+### Modify Member Team Roles
+:::tip
+
+1. The current user has joined the team;
+
+2. The current user needs to have team-level permissions within the team: `Team` -> `Members` -> `Manage`.
+
+:::
+
+1. Click on `Workspace` -> `My` -> `Team`, to access the team list page.
+
+2. Select a team to enter the team page.
+
+3. Click on `Members`, to access the member list.
+
+4. Click the member whose role you want to modify to assign the member role.

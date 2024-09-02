@@ -1,0 +1,8 @@
+{
+  "label": "团队",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "APIPark 中的团队模块是一个高效的协作工具，旨在按团队创建和管理服务。通过团队模块，企业可以根据项目需求组建不同的团队，每个团队可以独立管理其 API 服务。"
+  }
+}
