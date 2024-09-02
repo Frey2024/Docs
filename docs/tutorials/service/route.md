@@ -50,23 +50,25 @@ sidebar_position: 2
 
 1. 点击待编辑路由后方的`编辑`按钮。
 
-![](images/2024-09-02/de143af72b4d8d61af26739eececb7364423a14407d68f5e3843032ce1bb1f1a.png)  
+![](images/2024-09-02/2f3a9b53d1b32c3f26339d8bbb58640db92f6e670e530ee673fad168537423ca.png)  
 
 
 2. 填写路由信息。
 
-![](images/2024-09-02/7120cd35f132f67a6b234ee2d1326c41c53f749f5352f7e75c61107be8b401c3.png)  
+![](images/2024-09-02/a61a87a719820aefbeb15a667152ff5b8d6e827045d2d3a2027729316eedceb2.png)  
+
 
 填写完后点击提交即可。
 
 ### 删除路由
 1. 点击待删除路由后方的`删除`按钮。
 
-![](images/2024-09-02/0d47484a137f38559a8f423fb3649c88f474138baf1d2abc633e0ac4f211e0dd.png)  
+![](images/2024-09-02/3114bf7e93ee86c7c05bbd36b712a356fd7eebeb16e28ab53f16d0fbd58d64de.png)  
 
 2. 在弹出框中点击确认。
 
-![](images/2024-09-02/ec148b1e3175aa005950b0a440e64c5eadff07c64974ccf87741008da91e8604.png)  
+![](images/2024-09-02/3cd25fbfcf3648db6a358d78ccc77bca1e1027ad30c11ed31d1f0d8bcd7b8e62.png)  
+
 
 
 
