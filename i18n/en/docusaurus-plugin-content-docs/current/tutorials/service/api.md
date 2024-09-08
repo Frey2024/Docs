@@ -14,22 +14,21 @@ The API documentation configured within the service will be displayed in the ser
 
 ## Steps
 
-1. Select the service you want to configure and enter the service page.
+1. Select the service that needs to be configured and enter the service's detail page.
 
-![](images/2024-09-02/ec8003d81a786b86290ade6616d3c8ca4dcf4b8279c6aa25ee9bc19a2b96f5e2.png)  
+![](../../quick/provider/images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)  
 
-2. Click `API` to enter the API page.
+2. Click on `API` to enter the API page.
 
-![](images/2024-09-02/90c505f86e8dbfb42b5d05d085c37ce51080fc0019c96f5e325a350357e02dc7.png)  
+![](../../quick/provider/images/2024-09-08/37e24e45027d642d62021f02307c9838132fc2f57b79ffc1ee8bbbc09d187532.png)  
 
-3. Click `Open Editor`
+3. Click `Open Editor`.
 
-![](images/2024-09-02/cc27f4a27c6e7a15e18fbc5598cc601b9c2cfbd4e49180365a6355553ecb3213.png)  
+![](../../quick/provider/images/2024-09-08/e8975f0bf537072ca341affbd15da607c97d114917759f1aeb690e27a5b3aa1b.png)  
+
 
 4. Write the OpenAPI document in the editor.
 
-![](images/2024-09-02/2077700340a75dbe2e8d133c273c90e82d9525edff42768c969239f988f647c4.png)  
+![](../../quick/provider/images/2024-09-08/7f9b92cca8dcebf60b722b57d56069bfeb024ef4d62df7e02c1fa84076b6a924.png)  
 
-After writing, click save.
-
-![](images/2024-09-02/f39d21d6c2b4b1a01fbe6d5c430ce41941f4aced999313698884730f6465d8a0.png)  
+After writing, click Save.

@@ -4,17 +4,17 @@ In `APIPark`, **applications** are units used by service subscribers to manage a
 
 ## Operational Demonstration
 ### Adding an Application
-1. Click `Workspace` -> `My` -> `Applications` to enter the application list.
+1. Click on `Workspace` -> `My` -> `Applications` to access the application list.
 
-![](images/2024-08-13/bf349cd7aa60747edb521d20b0e9c8f7c390473634bf1e53533281bd73cd2d8e.png)  
+![](../../quick/suberscriber/images/2024-09-08/38e8b4000ffd4dbe86d3e85848b0f7749930e11a82d1ae95b46f03eb71e20d4c.png)    
 
-2. Select the team for which you want to add an application, and click `Add Application`.
+2. Select the team for which you want to add an application, and click `Add Application`. 
 
-![](images/2024-08-13/0560e7da6789596d5cb85339e3f9572166b174177e4b150d8b9c04a5c17cf4e4.png)  
+![](../../quick/suberscriber/images/2024-09-08/4c706577da205d1a02714db98cf777734ce908bb07952f1dedd93208c2217888.png)  
 
-3. Enter the application information in the pop-up dialog, and click `Confirm` after completing the input.
+3. Enter the application information in the pop-up box. After completing the form, click `Confirm`.
 
-![](images/2024-08-13/689cb2ce57707e62f3d8b5585f0d1dc1485cec57fb8dd997f4f431a5da897ccf.png)  
+![](../../quick/suberscriber/images/2024-09-08/955811430d115e7a6ed1ccbd1e8b87d0eb803b6e46cf5af490efc030026a7038.png)  
 
 ### Editing Application Information
 1. Choose the application you want to edit, and click to enter the application details page.

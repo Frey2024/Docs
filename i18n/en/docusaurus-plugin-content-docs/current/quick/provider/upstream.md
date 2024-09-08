@@ -12,17 +12,15 @@ Configuring the upstream is a crucial step in the API open platform to ensure th
 
 1. Select the service that needs configuration and enter the service's internal page.
 
-![](../../tutorials/service/images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)  
+![](images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)  
 
 2. Click on `Upstream` to enter the upstream configuration page.
 
-![](../../tutorials/service/images/2024-08-14/d570bc5e464539010e542ddc88602fbcd94d6dbc14d01809908a220d32341b91.png)  
+![](images/2024-09-08/0132f7c24b13ffbb9eff25b1c095568ac3f1fb6b5e1273676909c31fe9d9c93b.png)  
 
 3. Configure the upstream information, and after completing the configuration, click `Save`.
 
-![](../../tutorials/service/images/2024-08-14/7dd546e21086267638ee1c14d83a42e3cc9ba0e88de8b82b6a3b85e7a1baa386.png)  
-
-![](../../tutorials/service/images/2024-08-14/772f53c2f1cadef9e666cb7135f2e79b2b90db23c76bfdcc23e819425619d395.png)  
+![](images/2024-09-08/698c2a0f563eeeb99ef334aeb9e55eef518dfc2dcdc86647e793eebdc295a650.png)  
 
 **Field Description**
 

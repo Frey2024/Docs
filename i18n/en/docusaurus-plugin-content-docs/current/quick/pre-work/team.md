@@ -10,15 +10,15 @@ sidebar_position: 2
 
 1. Click `Workspace` -> `My` -> `Team` to enter the team list page.
 
-![](../../tutorials/team/images/2024-08-13/a2b6a29b65df10143f52696c0077c9fffedab2227147da305aa3c867567c601d.png)  
+![](images/2024-09-08/7e73d74ddbd4c7f6ead675e9ff036c079bc50420e16b8e39cd84ee6eb12b7d13.png)  
 
 2. Click the `Add Team` button.
 
-![](../../tutorials/team/images/2024-08-13/d832750c4ba61fa82ad443d6fa2fb2715591ed56fc91737b09aaa3561fa61bb7.png)  
+![](images/2024-09-08/b11d39410752b7806472b58aa6e1923ef558cb989878fa3b748e3c790a4695ff.png)   
 
 3. Enter team information in the pop-up box and click `Confirm` after completing it.
 
-![](../../tutorials/team/images/2024-08-13/5e81361024ad17dcbab470617b14f16baa34800227afb91e92a9f2e4c2fb1509.png)  
+![](images/2024-09-08/2707f7902ad3710feb587420a07620d45c990d0c01102c3f21c4f5220252c8a7.png)  
 
 **Field Descriptions**
 

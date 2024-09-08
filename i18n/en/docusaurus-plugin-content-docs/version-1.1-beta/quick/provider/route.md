@@ -14,19 +14,19 @@ In an API Gateway, **routing** typically relies on conditions such as URL paths,
 
 1. Select the service you need to configure and enter its details page.
 
-![](images/2024-09-02/10afbdf7d3f5c8f3e57aa75b2384451ac2b93ce5fb4e8da82485d6161fc97dd7.png)  
+![](images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)  
 
 2. Click on "Route".
 
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2F9BKiEaBNnFL4hPZEfZrLFT_doc.png?alt=media&token=ab5e9d1a-0656-42c2-8258-4dfe0aed8b83)
+![](images/2024-09-08/fa0c0f57d0c2d3724c9b69bb9eb589a0c40461534290b920e1113e292c11cf79.png)  
 
 3. Click on "Add Route".
 
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2FinoKzw9iPg9XB6aERNrfEH_doc.png?alt=media&token=1334052c-4fde-44eb-81dd-5699322af903)
+![](images/2024-09-08/fbc1db7a0d197bd7ba2f1715d6c16ed9547b805cfb729e5b86a1ecbb3f99566a.png)  
 
 4. Fill in the basic information for the route.
 
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2FfszwLvMnE9fvs5QHRGn7jT_doc.png?alt=media&token=82196b52-0b21-47e3-9a22-d9e07e26aa7d)
+![](images/2024-09-08/61f118170296ba7e59ff90fbb88241c13859d926559d2ad4e3d2b33c67cfea9e.png)  
 
 **Field Descriptions**
 
@@ -42,7 +42,3 @@ In an API Gateway, **routing** typically relies on conditions such as URL paths,
 | Forward Upstream Headers| Allows creating, editing, and deleting parameters for forward upstream headers, primarily used for authentication between gateway and upstream |
 
 Once completed, click the "Submit" button.
-
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2FuRxWf3ZmScCSzci3QsW5ZS_doc.png?alt=media&token=0cf544df-6891-46b9-a22c-7f830c2e8d0d)
-
-This guide covers all steps for configuring routes in an application, including selecting route options, adding routes, choosing request methods, setting up basic API information, and finally submitting the configuration.

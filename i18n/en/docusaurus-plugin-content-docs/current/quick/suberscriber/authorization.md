@@ -11,15 +11,16 @@ Subscribers subscribe to services on an application-by-application basis. Each a
 
 1. Select the application for which you need to configure access authorization and click to enter the inner page.
 
-![](../../tutorials/application/authorization/images/2024-08-14/3649262b7719154d5a1bba61f3455c2ff347b897da4925931001b4447e5b696f.png)  
+![](images/2024-09-08/a6e8c76c947956726a85db322db3977e6a97c7a960ecf68c7edc743bdb724a99.png)  
+
 
 2. Click `Access Authorization`, enter the authorization list page, and click the `Add Authorization` button.
 
-![](../../tutorials/application/authorization/images/2024-08-14/18535c55dc680bf1cab3b890471e3e3572f01497c40af817680e06f1bd20bec6.png)  
+![](images/2024-09-08/8987233747b9d28f92a9c8b4308b22bd9137a22897670db4646e79a6809b7758.png)  
 
 3. Choose an authentication method and fill in the relevant information. Below, Basic authorization is chosen:
 
-![](../../tutorials/application/authorization/images/2024-08-13/c888ad70e92ecc19a1e58ac86ed9a1916b390dd26c567ea95bc19a706b0fda3e.png)  
+![](images/2024-09-08/bd741ed9f46a7bfda1aa06b18f44bd8044479516aac576e62585abe4f61bdd38.png)  
 
 Furthermore, the platform currently supports various authentication methods such as `Apikey`, `JWT`, and `AK/SK`, among others.
 

@@ -9,19 +9,17 @@ sidebar_position: 3
 Before configuring, you need to have InfluxDB installed and configured. If you haven't, please refer to the guide [Configuring InfluxDB](../../install.md#configuring-influxdb).
 :::
 
-1. Click `System Settings` -> `Operations & Integration` -> `Monitoring Reports` to enter the monitoring configuration interface, then click `Modify Configuration`.
+1. Click `System Settings` -> `Operations & Integrations` -> `Data Source` to enter the monitoring configuration interface, then click `Modify Configuration`.
 
-![](images/2024-08-27/48a5cd9dae373a9628198be4804a76aba0df9e7a16b1a68fb78422c12f5f3ff6.png)
+![](images/2024-09-08/2e89bdd026afb0164c68c9933f8107fd76cc1f2791496d1c562cbf91459ac786.png)  
 
 2. Enter the InfluxDB configuration information. After filling it out, click `Save`.
 
-![](images/2024-08-27/5ab370e196fddc2847f261d444ca95036671da5afcfaa15d40779f9f626a5896.png)
+![](images/2024-09-08/4ed15f137c2a638e26d2b1a90172ae8d00a240f4c833c0bbe6b83490f6b5845e.png)  
 
 ## Running View
 :::tip
 After configuring monitoring, we can view the API's operational status on the dashboard. The dashboard provides various statistical charts to help us understand the API's performance.
 :::
 
-![](images/2024-08-27/d0dde3595603e9cbeab157d8acae61985ea800641f0b500c0e7669f5f12d8916.png)
-
-![](images/2024-08-27/8d2867191fc611ef26b78bb768794363d48c94479ac77a1f7696b41325877ae1.png)
+![](images/2024-09-08/927ae8e2bca001f5d7d448a6dca86d9d7d9f4a975382569d8b160ae65998308d.png)  

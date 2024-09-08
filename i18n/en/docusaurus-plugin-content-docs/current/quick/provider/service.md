@@ -10,13 +10,13 @@ As a service provider, you need to first add a new service on the platform. When
 
 1. Click `Workspace` -> `My` -> `Service` to enter the service list page and then click `Add Service`.
 
-![](../../tutorials/service/images/2024-08-14/9e8fb58fb4ae357bdca692d3796c89105f0ac1b1b434dfb47f9073f4249b01bc.png)  
+![](images/2024-09-08/1aeba62cc7a8c585d77bb3fc4ba805badf86684b1a496da3aeeecc9ceabfb6cf.png)  
+ 
 
 2. Enter the service information in the popup form.
 
-![](../../tutorials/service/images/2024-08-14/b8e30949238ffc3b67976575f70c7822ee5dea7000c62ef97b703ced8f022dd6.png)  
+![](images/2024-09-08/44afcef01b96b0dd2a2c2150ea3e166290507cd71c9c583b39a50108e8c8f9ec.png)  
 
-![](../../tutorials/service/images/2024-08-14/932ab4b2232f62e4f037c8d8a9cb092822a25ab0e9a27c1cf5db009df7fcae5f.png)  
 
 **Field Description**
 

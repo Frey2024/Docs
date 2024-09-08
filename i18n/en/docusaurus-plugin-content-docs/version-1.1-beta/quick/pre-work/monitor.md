@@ -22,6 +22,4 @@ Before configuring, you need to have InfluxDB installed and configured. If you h
 After configuring monitoring, we can view the API's operational status on the dashboard. The dashboard provides various statistical charts to help us understand the API's performance.
 :::
 
-![](images/2024-08-27/d0dde3595603e9cbeab157d8acae61985ea800641f0b500c0e7669f5f12d8916.png)
-
-![](images/2024-08-27/8d2867191fc611ef26b78bb768794363d48c94479ac77a1f7696b41325877ae1.png)
+![](images/2024-09-08/927ae8e2bca001f5d7d448a6dca86d9d7d9f4a975382569d8b160ae65998308d.png)  

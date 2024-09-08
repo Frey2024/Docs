@@ -6,27 +6,28 @@ In `APIPark`, subscribers subscribe to services based on applications. Each appl
 
 ### Configuring Access Authorization
 
-1. Select the application for which you need to configure access authorization, and click to enter the details page.
+1. Select the application for which you need to configure access authorization and click to enter the inner page.
 
-![](images/2024-08-14/3649262b7719154d5a1bba61f3455c2ff347b897da4925931001b4447e5b696f.png)  
+![](../../../quick/suberscriber/images/2024-09-08/a6e8c76c947956726a85db322db3977e6a97c7a960ecf68c7edc743bdb724a99.png)  
 
-2. Click on `Access Authorization` to enter the authorization list page, and then click the `Add Authorization` button.
 
-![](images/2024-08-14/18535c55dc680bf1cab3b890471e3e3572f01497c40af817680e06f1bd20bec6.png)  
+2. Click `Access Authorization`, enter the authorization list page, and click the `Add Authorization` button.
 
-3. Choose an authentication method and fill in the relevant information. As shown below, we chose Basic authentication:
+![](../../../quick/suberscriber/images/2024-09-08/8987233747b9d28f92a9c8b4308b22bd9137a22897670db4646e79a6809b7758.png)  
 
-![](images/2024-08-13/c888ad70e92ecc19a1e58ac86ed9a1916b390dd26c567ea95bc19a706b0fda3e.png)  
+3. Choose an authentication method and fill in the relevant information. Below, Basic authorization is chosen:
 
-Additionally, the open platform currently supports various authentication methods such as `API Key`, `JWT`, `AK/SK`, and more.
+![](../../../quick/suberscriber/images/2024-09-08/bd741ed9f46a7bfda1aa06b18f44bd8044479516aac576e62585abe4f61bdd38.png)  
 
-For different types of authentication methods, the associated common configuration fields are as follows:
+Furthermore, the platform currently supports various authentication methods such as `Apikey`, `JWT`, and `AK/SK`, among others.
 
-<table><thead><tr><th width="182">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>Authentication identifier, it is recommended to use a meaningful name</td></tr><tr><td>Parameter Location</td><td>Position where the authentication information is transmitted, supports Query, Header</td></tr><tr><td>Parameter Key</td><td>Defines from which Key to obtain the parameter value</td></tr><tr><td>Expiration Time</td><td>Authentication expiration time, if not set, it will never expire</td></tr><tr><td>Hide Authentication Information</td><td>Whether to hide the authentication fields when forwarding to upstream services</td></tr></tbody></table>
+For different types of authentication methods, the relevant common configuration fields are as follows:
 
-For more details on the use of authentication, you can click on the tutorials below:
+<table><thead><tr><th width="182">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>Authentication identifier, it is recommended to use a meaningful name.</td></tr><tr><td>Parameter Position</td><td>The parameter position where the authentication information is transmitted, supporting Query and Header.</td></tr><tr><td>Parameter Key</td><td>Define from which key to retrieve the parameter value.</td></tr><tr><td>Expiration Time</td><td>Authentication expiration time; if not set, it will never expire.</td></tr><tr><td>Hide Authentication Information</td><td>Whether to hide the authentication fields when forwarding to upstream services.</td></tr></tbody></table>
 
-* [API Key](./apikey.md)
+For more details on using authentication, you can refer to the tutorials below:
+
+* [APIKey](./apikey.md)
 * [Basic Authorization](./basic-auth.md)
 * [AK/SK](./aksk.md)
 * [JWT](./jwt.md)

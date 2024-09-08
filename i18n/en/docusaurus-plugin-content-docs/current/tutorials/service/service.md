@@ -16,21 +16,23 @@ Services displayed in the Service Plaza must meet the following conditions:
 
 ## Operation Demonstration
 ### Add Service
-1. Click `Workspace` -> `My` -> `Service`, enter the service list page, and click `Add Service`.
+1. Click `Workspace` -> `My` -> `Service` to enter the service list page and then click `Add Service`.
 
-![](images/2024-08-14/9e8fb58fb4ae357bdca692d3796c89105f0ac1b1b434dfb47f9073f4249b01bc.png)  
+![](../../quick/provider/images/2024-09-08/1aeba62cc7a8c585d77bb3fc4ba805badf86684b1a496da3aeeecc9ceabfb6cf.png)  
 
-2. Fill in the service information in the popup box.
 
-![](images/2024-08-14/b8e30949238ffc3b67976575f70c7822ee5dea7000c62ef97b703ced8f022dd6.png)  
+2. Enter the service information in the popup form.
 
-![](images/2024-08-14/932ab4b2232f62e4f037c8d8a9cb092822a25ab0e9a27c1cf5db009df7fcae5f.png)  
+![](../../quick/provider/images/2024-09-08/44afcef01b96b0dd2a2c2150ea3e166290507cd71c9c583b39a50108e8c8f9ec.png)  
+
 
 **Field Description**
 
-<table><thead><tr><th width="169">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Service Name</td><td>Name used to identify and describe the service.</td></tr><tr><td>Service ID</td><td>The service ID is used to uniquely identify the service, ensuring different services can be accurately distinguished during management and operations. The service ID is used internally and during call processes and is not easily changeable.</td></tr><tr><td>API Call Prefix</td><td>The URL prefix used when calling the service's API. It is used to uniformly manage and route API requests to ensure the requests reach the target service correctly. The prefix should relate to the service name and be easy to remember and use.</td></tr><tr><td>Description</td><td>Records and displays detailed information and function descriptions of the service.</td></tr><tr><td>Associated Team</td><td>The team responsible for managing and maintaining the service.</td></tr><tr><td>Icon</td><td>This icon will be displayed in the Service Plaza.</td></tr><tr><td>Tags</td><td>Custom tags for the service to help subscribers quickly find it.</td></tr><tr><td>Service Type</td><td>If it is an external service, subscribers can access the service in the Service Plaza, apply for subscriptions, and initiate calls once approved by the provider. <br/>If it is an internal service, it can only be accessed by allocation of call permissions by the provider to the subscriber.</td></tr></tbody></table>
+<table><thead><tr><th width="169">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Service Name</td><td>The name used to identify and describe the service.</td></tr><tr><td>Service ID</td><td>The Service ID is used to uniquely identify the service, ensuring accurate differentiation between different services during management and operations. It is used internally and during invocation and is difficult to change.</td></tr><tr><td>API Call Prefix</td><td>The URL prefix used when calling the API of the service. It is used to manage and route API requests uniformly, ensuring requests are correctly directed to the target service. The prefix should be associated with the service name and easy to remember and use.</td></tr><tr><td>Description</td><td>Records and displays detailed information and function description of the service.</td></tr><tr><td>Responsible Team</td><td>The team responsible for managing and maintaining the service.</td></tr><tr><td>Icon</td><td>This icon will be displayed in the Service Plaza.</td></tr><tr><td>Tags</td><td>Custom tags for the service to facilitate quick searching by subscribers.</td></tr><tr><td>Service Type</td><td>If it's an <b>External Service</b>, subscribers can obtain and apply for subscriptions through the Service Plaza. Once approved by the provider, calls can be initiated.<br/>If it's an <b>Internal Service</b>, call permissions can only be allocated by the provider through distribution to subscribers.</td></tr><tr><td>Service Category</td><td>Select the service category that will be displayed in the Service Plaza.</td></tr></tbody></table>
 
-Once filled out, click `Submit`.
+Here, we choose `External Service` as the service type and select the `Service Category`. Once completed, click `Submit`.
+
+If there is no service category, please refer to the tutorial [Add Service Category](../../quick/provider/catalogue.md#operation-demonstration)
 
 ### Edit Service Information
 1. Select the service you want to edit and click to enter the service details page.

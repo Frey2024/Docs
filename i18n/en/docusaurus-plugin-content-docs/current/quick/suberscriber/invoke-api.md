@@ -20,15 +20,15 @@ Before invoking, the following conditions must be met:
 
 Assuming in the [Authorize Access](./authorization.md) operation, the authentication information is configured as follows:
 
-![](images/2024-08-16/ddd344519fef8793181235973d723c50b1f408f2e79e1d49460cfc21272af75d.png)
+![](images/2024-09-08/6706e4f3abc8bf0de26317ee9d3d2c2961d53e44b00be176a6340f0d2f3da7b0.png)  
 
-The service address of the cluster is `http://10.8.0.18:8099`, as shown below:
+The service address of the cluster is `http://172.27.153.137:8099`, as shown below:
 
-![](images/2024-08-16/bcd362778abb695c8232e64e3dd8501e8184d0901179d591105915909655dec2.png)
+![](images/2024-09-08/71e691d86d9ca59dbccc0199067f87d8df634ed87c9c6fa8174ac3ab42184731.png)  
 
 The API invocation information is as follows:
 
-![](images/2024-08-16/7e7ebdaf241ee68d1d3a05463224448c1d86ac507cf35b34484627ad26296edd.png)
+![](images/2024-09-08/8faadceeb708678ef44b270349185aef4719d54e7d71dbd02c715b604f69695d.png)  
 
 You can use any of the following methods to invoke the service API.
 
@@ -38,12 +38,13 @@ You can use any of the following methods to invoke the service API.
 Select a `server/VM/PC` that can access the partition gateway node and execute the following command:
 
 ```sh
-curl -X POST -H "Authorization: 59eb96b4-cfaf-4d8b-8f12-2d383c04264e" \
+curl -X POST -H "Authorization: 
+b6b8f2bb-8264-4d09-9a6c-021f3ab271eb" \
 -H "Content-Type: application/json" -d "{\"username\":\"admin\",\"password\":\"$pbkdf2-sha512$i=1000,l=32$CzQQIAgUJxBR3WxhuZjU2w$3scp3ONqDeC8Sg80ESdTzhW3SL5vPfj/HmU8If6YYdc\"}" \
-http://10.8.0.18:8099/sso/user/login
+http://172.27.153.137:8099/sso/user/login
 ```
 
 The invocation result is as shown in the figure:
-![](images/2024-08-16/a7275f3116d7acde3c917fa87bfc97f89512b7531ab7db1bd73acceefa197a87.png)
+![](images/2024-09-08/79dcd3645a51d9ab276588bc98c389592d980b6f011bdd027ec6da94a5b5424a.png)  
 
 </details>

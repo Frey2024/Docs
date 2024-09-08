@@ -17,6 +17,6 @@ To help subscribers understand and use the API, service providers need to config
 
 Once you enter the service page, click on `Usage Instructions` and fill in the service usage guide information.
 
-![](../../tutorials/service/images/2024-08-14/0fb3ab2431f94d321004b929a622bffa7dcc14216e18d3f5bab323b0c9c8a8b2.png)
+![](images/2024-09-08/f39ac625a59988c64e9deb15bcf6d2f2b92d0053febcee17b5fc9ed88ed81973.png)  
 
 After editing, click save to finish.

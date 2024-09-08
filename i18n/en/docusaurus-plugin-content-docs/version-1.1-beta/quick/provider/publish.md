@@ -22,14 +22,14 @@ Before proceeding, the following conditions must be met:
 
 1. Select the service you want to configure and enter the internal page of the service.
 
-![](../../tutorials/service/images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)
+![](images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)
 
-2. Click `Release` and then `Create New Version`.
+2. Click `Publish` and then Click`New Version`.
 
-![](../../tutorials/service/images/2024-08-14/55ce074035abc44a450b59363fb730ac7dc9218d5a3b8b4206f3b296599c2f9f.png)  
+![](images/2024-09-08/4ebb5e8cc815ee9a14606a8034c1261d9ebe37d465c031e0ace861bf2bb12a2c.png)  
 
 3. Enter the version description information in the pop-up box, and after completing it, click `Confirm`.
 
-![](../../tutorials/service/images/2024-08-14/88e03577a3f92f5db00b934be613fe72002571c773640f1380cf5d965b6153ee.png)  
+![](images/2024-09-08/e32b99bdf7b7aaf455a085e8e26704c0a189717fb99a073a91f2af178654c350.png)   
 
 After the release is complete, if the service is an external service, it will be displayed in the service plaza for subscribers to subscribe.

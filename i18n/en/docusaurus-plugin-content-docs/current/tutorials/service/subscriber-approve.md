@@ -8,14 +8,15 @@ Subscription approval refers to the process in `APIPark` where service providers
 
 ## Steps to Operate
 
-1. Select the service to be approved and enter the service's internal page.
+1. Select the service that needs approval and enter the service details page.
 
-![](images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)
+![](../../quick/provider/images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)
 
-2. Click on `Subscription Approval` to enter the pending approval list, then click on the approval button at the end.
+2. Click on `Subscription Review`, enter the pending approval list, and click on the approval option at the end.
 
-![](images/2024-08-14/ffdabb491a812ea239c1146a6398c497d1154c2b790ff35725ab574bafb0923c.png)  
+![](../../quick/provider/images/2024-09-08/a74e613f1bdb7ca36f0c0e147cb7aa5643eb647c7e5c04d65b734ac57ae6a9c7.png)  
 
-3. Enter your approval comments in the pop-up box and click `Approve` or `Reject`.
+3. In the pop-up box, enter your approval comments and click `Approve` or `Reject`.
 
-![](images/2024-08-14/2bc78da68ca3076ae7b00e910c5f1a10ec898483619552df496f444c3487d16e.png)  
+![](../../quick/provider/images/2024-09-08/103b1de917cbfc01c61e148eda37495eff86b045a4148baa88f657487356c4e5.png)  
+

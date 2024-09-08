@@ -11,40 +11,36 @@ In an API Gateway, routing is typically based on conditions such as URL paths, H
 ## Operation Demonstration
 ### Adding a Route
 
-1. Select the service you need to configure and enter the service page.
+1. Select the service you need to configure and enter its details page.
 
-![](images/2024-09-02/10afbdf7d3f5c8f3e57aa75b2384451ac2b93ce5fb4e8da82485d6161fc97dd7.png)  
+![](../../quick/provider/images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)  
 
-2. Click on "Routing"
+2. Click on "Route".
 
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2F9BKiEaBNnFL4hPZEfZrLFT_doc.png?alt=media&token=ab5e9d1a-0656-42c2-8258-4dfe0aed8b83)
+![](../../quick/provider/images/2024-09-08/fa0c0f57d0c2d3724c9b69bb9eb589a0c40461534290b920e1113e292c11cf79.png)  
 
-3. Click on "Add Route"
+3. Click on "Add Route".
 
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2FinoKzw9iPg9XB6aERNrfEH_doc.png?alt=media&token=1334052c-4fde-44eb-81dd-5699322af903)
+![](../../quick/provider/images/2024-09-08/fbc1db7a0d197bd7ba2f1715d6c16ed9547b805cfb729e5b86a1ecbb3f99566a.png)  
 
-4. Fill in the basic routing information
+4. Fill in the basic information for the route.
 
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2FfszwLvMnE9fvs5QHRGn7jT_doc.png?alt=media&token=82196b52-0b21-47e3-9a22-d9e07e26aa7d)
+![](../../quick/provider/images/2024-09-08/61f118170296ba7e59ff90fbb88241c13859d926559d2ad4e3d2b33c67cfea9e.png)  
 
 **Field Descriptions**
 
-| Field Name        | Description                                                        |
-| :---------------- | :----------------------------------------------------------------- |
-| Intercept Request | Whether to intercept the request to this interface                 |
-| Request Method    | Supports common HTTP request methods like GET, POST, PUT, DELETE, etc., and supports multiple selections |
-| Request Path      | The URI of the API used for the relative path in the request URL; supports Restful parameters and path prefix matching |
-| Advanced Matching | Supports matching via request headers, request parameters, and Cookies; multiple entries can be added |
-| Forwarding Upstream Path | The relative path forwarded to the upstream service            |
-| Request Timeout   | Defines the timeout period for the gateway to forward a request to the upstream to receive a response |
-| Retry Count       | The gateway will automatically retry forwarding the request when a failure occurs; the maximum retry count does not exceed the configured limit |
-| Forwarding Upstream Headers | Allows new, edit, and delete operations on forwarding upstream headers, primarily used in authentication between the gateway and upstream |
+| Field Name               | Field Description                                            |
+| :----------------------- | :----------------------------------------------------------- |
+| Intercept this request   | Whether to intercept the requests of this interface          |
+| Request Method           | Supports common HTTP request methods like GET, POST, PUT, DELETE, and allows multiple selections |
+| Request Path             | URI of the API, applied to the relative path in the request URL, supports Restful parameters and prefix matching |
+| Advanced Matching        | Supports routing matches through request headers, parameters, and Cookies; allows multiple entries |
+| Forward Upstream Path    | The relative path to be forwarded upstream                   |
+| Request Timeout          | Defines the timeout for the gateway to forward requests and receive responses from upstream |
+| Retry Count              | When forwarding requests to upstream fails, the gateway will automatically retry, with a maximum retry count |
+| Forward Upstream Headers | Allows creating, editing, and deleting parameters for forward upstream headers, primarily used for authentication between gateway and upstream |
 
 Once completed, click the "Submit" button.
-
-![](https://static.guidde.com/v0/qg%2FMkAKUo4JcXZlnKeKYxgVcqodAWf2%2FmYae7rodt69i21cWfJ3tNv%2FuRxWf3ZmScCSzci3QsW5ZS_doc.png?alt=media&token=0cf544df-6891-46b9-a22c-7f830c2e8d0d)
-
-This guide covers all steps for configuring routes in the application, including selecting routing options, adding routes, choosing request methods, configuring API basic information, and finally submitting the configuration.
 
 ### Editing a Route
 

@@ -24,21 +24,24 @@ The service subscription module simplifies the API access process and permission
 Before subscribing to a service, make sure there is an **application**. If not, please refer to the tutorial [Add Application](./application.md#add-application)
 :::
 
-1. Click `Workspace` -> `API Marketplace` to enter the service list page.
+1. Click `API Portal` to enter the service list page.
 
-![](images/2024-08-14/65f9de8c0831d4b034d26a1d05486cd98cc9e2352c75da907f1000b704cc9cec.png)  
+![](../../quick/suberscriber/images/2024-09-08/ecd5ea8c0d6fa8f30bff52044a31cba6ac83f4c86ac3e17f8b519ff06c07615c.png)  
 
-2. Select the service you want to apply for and click to enter the service details page.
 
-![](images/2024-08-14/b8938a2acbab8a4df3e7e0d8a851532ae87eac70ca987493938f10cb8a512db0.png)  
+2. Select the service you wish to apply for and click to enter the service details page.
+
+![](../../quick/suberscriber/images/2024-09-08/ff02113b60ec584f19a69a4a26633fdcf67980b73eda19a3f00b097b678cc64f.png)  
 
 3. Click `Apply`.
 
-![](images/2024-08-14/9dc74c69f16904f85d46bbf45a98315c8c6734776cdde98436575f9b8ab83cd3.png)  
+![](../../quick/suberscriber/images/2024-09-08/d307240b19639c8059fc5880afb17c1e0e29fbb7707f5f4d289fe943ca2bac3e.png)   
 
-4. In the popup, select `Application`.
+4. Select `Application` in the pop-up box.
 
-![](images/2024-08-14/2634b29fd6e90dc9ccce29dfe7ce49d1ce03420d710decfce94a262ed2af5f2f.png)  
+![](../../quick/suberscriber/images/2024-09-08/fb862f12c84f2f5d8525555750185fa2cd074af05b1a9f55d26bb231a296ff7d.png)  
+
+
 
 ### View Services Subscribed by Applications
 1. After applying, click `Workspace` -> `Applications` to enter the application list page.

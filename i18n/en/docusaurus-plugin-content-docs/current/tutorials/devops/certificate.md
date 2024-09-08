@@ -8,37 +8,39 @@ By configuring and managing SSL certificates for API services, businesses can en
 :::tip
 Before adding a certificate, you need to [configure cluster nodes](./cluster) first.
 :::
-1. Click `System Certificates` -> `Operations and Integration` -> `Certificates` to enter the certificate list page.
+1. Click `System Certificates` -> `Operations and Integrations` -> `Certificates` to enter the certificate list page. Click `Add Certificate`.
 
 ![](images/2024-08-13/3dc1149c38a96ce25cb832e3bcfae2354495ed5d660b8e78162909078a47b558.png)  
 
-2. Click `Add Certificate`.
-
-![](images/2024-08-13/8c377a7aba0400cc51a7dfc8acba62d23eb3aa8512455599421c075f04ae9f0e.png)  
 
 3. In the pop-up dialog, upload the key (`.key`) and certificate (`.pem` or `.csr`) files.
 
-![](images/2024-08-13/7cc64ca6be5e60f778a7b55a828d359a50b278172accf6e2f769ce46fec610c2.png)  
+![](images/2024-09-08/ca797c1eb5e738662622633fdcdebc1276e439d60fc8037d011c3e9859349763.png)  
 
 After uploading, click `Confirm`.
+
+![](images/2024-09-08/32c47869e6ca97c7c4fbb9524de826eef3df8b68abbb437026b7972771ce7b42.png)
 
 ### Modifying a Certificate
 1. Click the `Edit` button next to the certificate you wish to modify.
 
-![](images/2024-08-13/e6c4f31feddc4f35ac8360377e763807ead1d045c510425ce37d96c3af7f77ed.png)  
+![](images/2024-09-08/cd8c4df68928ce38ea221f271bac34c58a72fdc096f73fb7664a01f8f3e4971b.png)  
 
 2. In the pop-up dialog, upload the key (`.key`) and certificate (`.pem` or `.csr`) files.
 
-![](images/2024-08-13/5836f9522597df11f3f65aec8da5189ba6884fe22fd59b7e082dcf3dd43454dd.png)  
+![](images/2024-09-08/ca797c1eb5e738662622633fdcdebc1276e439d60fc8037d011c3e9859349763.png)  
 
 After uploading, click `Confirm`.
+
+![](images/2024-09-08/32c47869e6ca97c7c4fbb9524de826eef3df8b68abbb437026b7972771ce7b42.png)  
+
 
 ### Deleting a Certificate
 
 1. Click the `Delete` button next to the certificate you wish to delete.
 
-![](images/2024-08-13/3b82fd56b7824adabfae2704f0edcdb0895096482e4a9ad726667a9017f98943.png)  
+![](images/2024-09-08/c57fcef4fd470904c93b72d276c299680d07e6ee77939955993e607cd9fcfc68.png)  
 
 2. In the pop-up dialog, click the `Confirm` button.
 
-![](images/2024-08-13/e50f795a4e8229b11ba1a765c113ec52157689c99258ef7061d8f83436200af6.png)  
+![](images/2024-09-08/ccdeba29aa27ca7d6907974e07948383fa1500bfb4a542010f1b888f4de46c79.png)  

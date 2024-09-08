@@ -11,26 +11,29 @@ After executing the release operation, if the current service is an `external se
 ## Operation Demo
 ### Release Version
 
-1. Select the service you need to configure and enter the internal service page.
+1. Select the service you want to configure and enter the internal page of the service.
 
-![](images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)
+![](../../quick/provider/images/2024-09-08/30415699670c5235f8b4b9d682d6b1b4e6ecd26624cb658ef283b08487bbd197.png)
 
-2. Click `Release`, then click `New Version`.
+2. Click `Publish` and then Click`New Version`.
 
-![](images/2024-08-14/55ce074035abc44a450b59363fb730ac7dc9218d5a3b8b4206f3b296599c2f9f.png)
+![](../../quick/provider/images/2024-09-08/4ebb5e8cc815ee9a14606a8034c1261d9ebe37d465c031e0ace861bf2bb12a2c.png)  
 
-3. Enter the version description information in the popup, and after filling in, click `Confirm`.
+3. Enter the version description information in the pop-up box, and after completing it, click `Confirm`.
 
-![](images/2024-08-14/88e03577a3f92f5db00b934be613fe72002571c773640f1380cf5d965b6153ee.png)
+![](../../quick/provider/images/2024-09-08/e32b99bdf7b7aaf455a085e8e26704c0a189717fb99a073a91f2af178654c350.png)   
+
+After the release is complete, if the service is an external service, it will be displayed in the service plaza for subscribers to subscribe.
 
 ### View Release Records
 
-1. Click `Release Records` to enter the record list page.
+1. Click `Publishing Application Record`  to enter the record list page.
 
-![](images/2024-08-14/a5e8354d0a99c497a45518d47d4432860a2fc16d3cfd1c93ce44bdee48654958.png)
+![](images/2024-09-08/d6fc00643973fe7a210f7b6c598543d272432ebc4b4448af2c0b06eddb9a0695.png)  
 
 2. Click the `View Details` button next to the record.
 
-![](images/2024-08-14/6e4bbf2c80ef5b59b087c630681cf834578ca7fca4f65d6955419894046e4d09.png)
+![](images/2024-09-08/7bf9a7d4fb7576219e465c3b2e4bbe63344ee6b292e5e29ab8328d13564f5210.png)  
 
-![](images/2024-08-14/d43924d3e5f55b9a3904ef800e2b7aa7013a27f0c95b8c344d68ba0b8784a697.png)
+![](images/2024-09-08/234203a5276ec6026a3531f75af4074f216bae900fa4352a7ac8e84ce5ebac09.png)  
+ 
