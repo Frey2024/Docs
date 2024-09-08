@@ -9,23 +9,22 @@ The permissions setting feature makes team management more flexible and secure b
 :::tip
 Members added to the team by default receive the `Application Developer` team role.
 :::
-1. Click `Workspace` -> `Mine` -> `Team` to enter the team list page.
+1. Click `Workspace` -> `My` -> `Team` to enter the team list page.
 
-![](images/2024-08-13/a2b6a29b65df10143f52696c0077c9fffedab2227147da305aa3c867567c601d.png)  
+![](images/2024-09-08/f133e0c5ebc6648b5c0ee45aac9acd6341750111932d40a5181b13aa759a28a2.png)  
 
 2. Click the team where you want to add members to enter the team details page.
 
-![](images/2024-08-13/12cc4956c524f2f89dae822e312989e975ae6507cd256deb0b3c50429ce50941.png)  
+![](images/2024-09-08/834601ddb6b9265b60d2f144f4f5a5b79202d827bba76867890584b55752be6b.png)
 
 3. Click the `Members` tab and then click the `Add Member` button.
 
-![](images/2024-08-13/deb46147c80db47f6daa6e889ff8045d862a0236af51f7fa29ccc2248d96927d.png)  
+![](images/2024-09-08/a07ca0ae7230dbf2eef347ed58f835ef9bcf3b48ddb6d43b02eedf730c869883.png)  
+
 
 4. In the pop-up box, select the members you want to add to the team and move them to the right.
 
-![](images/2024-08-13/eb913825a7881306c4bc5af184e4d13df56a30f3845f7cfcca9da678a6798aba.png)  
+![](images/2024-09-08/332efdc3eadd92f7e4854b17d313c417bb498dd057d1852e739ac9c5ce881993.png)  
 
 After completing the operation, click Confirm to finish.
-
-### Removing from the Team
 

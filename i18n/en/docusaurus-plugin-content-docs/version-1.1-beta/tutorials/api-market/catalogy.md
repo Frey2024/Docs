@@ -12,49 +12,55 @@ When a service needs to be displayed in the service market, at least one categor
 
 ### Add a Category
 
-1. Click `System Settings` -> `API Marketplace` -> `Service Category Management` to enter the service category list page.
+1. Click `System Settings` -> `API Portal -> `Category` to enter the service category list page.
 
-![](images/2024-08-13/de1a33493e8faf8e5a70d38ef5acf7ca831d4168445749e1591f2a59a7d5ca15.png)  
+![](../../quick/provider/images/2024-09-08/1dd0309526d3b92abd0f529ca66f9207fc2cdcd61b5af6b602883331a6a37111.png)   
+
 2. Click `Add Category`.
 
-![](images/2024-08-13/6418688cae73417fe542d2d83f3236f6517b056af6f7d5730f6d8415de1a7744.png)  
+![](../../quick/provider/images/2024-09-08/8681b3b5a80921d9430692e2b0317d3fef9e0758c48e250ae23bbc7ae85790b4.png)  
 
-3. Enter the category name in the popup box, and then click `Confirm`.
 
-![](images/2024-08-13/cb0bb269919afd7c42638a04c1952f0e769560339f4a03e0d844fd60b083460a.png)  
+3. Enter the category name in the pop-up box and click `Confirm`.
+
+![](../../quick/provider/images/2024-09-08/90bf63fdf49ba4a6a7ed787ccddf0cf51ffae5b166e5d7933beb7a2f3db5e580.png)  
+
+
 
 ### Add a Subcategory
 
 1. Click the menu button behind the category, and then click `Add Subcategory`.
 
-![](images/2024-08-13/3316462dffd5bb5dfe4068a6712cbc323ee643d92c6bcdb4b692dfaa998b8547.png)  
+![](images/2024-09-08/9060b7c802b6cb48c6fec906dc5c81c5b662af92b885aaad6efd87159b4229a9.png)  
 
 2. Enter the subcategory name in the popup box, and then click `Confirm`.
 
-![](images/2024-08-13/cdc2b19e59602936f911cd59cc7dd2fc2c4aa9f23518bd32aa789655e705ddde.png)  
+![](images/2024-09-08/157cbe39c382ca13badd1ebac3ec7a5a5f556d476ec57806afda06d406fffad3.png)  
 
 ### Edit Category Name
 
-1. Click the menu button behind the category, and then click `Edit Category Name`.
+1. Click the menu button behind the category, and then click `Modify Category`.
 
-![](images/2024-08-13/76155128de209ea63e489ecd589ef29ed4e52a335d2f30227cd03429f6319d53.png)  
+![](images/2024-09-08/29c3ea48da1f27513d0458079f991329dfe2a1e34fd0b9072665456f0ea0bf65.png)  
+
 
 2. Enter the new category name in the popup box, and then click `Confirm`.
 
-![](images/2024-08-13/f3c52e3daa7426e93d22dc74f0f8db75df76ea9271307c818e4fca60537242b7.png)  
+![](images/2024-09-08/1538f510e364acdcacfb38c5a2b618bad86b64de828201f9ce48733f77c5c85b.png)  
+ 
 
 ### Delete a Category
 
 1. Click the menu button behind the category, and then click `Delete`.
 
-![](images/2024-08-13/74e9cb0756fff2a174eb3c4bcb71676fe283e74f45e1f2e32827347513ee02af.png)  
+![](images/2024-09-08/7c4e967b2c401d5dcf8376590ff30aa4cd64c2cf956e4aff8d61026aa6036e3b.png)  
 
 2. Click `Confirm` in the popup box.
 
-![](images/2024-08-13/22f1ac1e527367ce421a973c0444cdfa73ffe309da3f5f9b98f8aad48e562718.png)  
+![](images/2024-09-08/8bf483cc394b48f5c7f726b755847d296482f162df2975b332c3314dd461f7c2.png)  
 
 ### Change Category Order
 
 Drag the sorting button in front of the category. 
 
-![](images/2024-08-13/3277a073a10ddc856560f6baefc8b849bd6145825f122d725eb29f0e58c14853.png)  
+![](images/2024-09-08/348cb54c8368b942b1190e75713aae0b3e96b21310aec068d770f87253775b7b.png)  

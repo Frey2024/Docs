@@ -5,17 +5,18 @@ The team module in APIPark is an efficient collaboration tool designed to organi
 ## Operations Demonstration
 
 ### Create a New Team
+
 1. Click `Workspace` -> `My` -> `Team` to enter the team list page.
 
-![](images/2024-08-13/a2b6a29b65df10143f52696c0077c9fffedab2227147da305aa3c867567c601d.png)  
+![](../../quick/pre-work/images/2024-09-08/7e73d74ddbd4c7f6ead675e9ff036c079bc50420e16b8e39cd84ee6eb12b7d13.png)  
 
 2. Click the `Add Team` button.
 
-![](images/2024-08-13/d832750c4ba61fa82ad443d6fa2fb2715591ed56fc91737b09aaa3561fa61bb7.png)  
+![](../../quick/pre-work/images/2024-09-08/b11d39410752b7806472b58aa6e1923ef558cb989878fa3b748e3c790a4695ff.png)   
 
-3. Enter the team information in the pop-up box and click `Confirm`.
+3. Enter team information in the pop-up box and click `Confirm` after completing it.
 
-![](images/2024-08-13/5e81361024ad17dcbab470617b14f16baa34800227afb91e92a9f2e4c2fb1509.png)  
+![](../../quick/pre-work/images/2024-09-08/2707f7902ad3710feb587420a07620d45c990d0c01102c3f21c4f5220252c8a7.png)
 
 **Field Descriptions**
 
@@ -25,11 +26,12 @@ The team module in APIPark is an efficient collaboration tool designed to organi
 
 1. Click the team you want to edit to enter the team settings interface.
 
-![](images/2024-08-13/00a9f50426247ef6b3cc4428503e50cdad6d23839872aa9ff43036f18b65a57d.png)  
+![](images/2024-09-08/834601ddb6b9265b60d2f144f4f5a5b79202d827bba76867890584b55752be6b.png)  
 
 2. Edit the team information and click save after editing.
 
-![](images/2024-08-13/53f4e0467178b0ad732e206104ac67063410eff02d9671a520baf4c666dea05a.png)  
+![](images/2024-09-08/b9d4d50749d3cb843f634bdeefcd1e6de0e8965360e991d9857268c56526417a.png)  
+
 
 ### Delete Team
 :::tip
@@ -37,8 +39,8 @@ Teams can be deleted through two entrances. If there are services in the team, t
 :::
 1. Click delete in the team list
 
-![](images/2024-08-13/e94bb1a117ffa009437cfdaf3d56709eb5c98fde8c2ed309e7a15aae6a72f2fc.png)  
+![](images/2024-09-08/3b6839c48065d8a2a2f12c01577a9b63a41d6fa53042ac5ca3cd0a0a4f57fea0.png)  
 
 2. Click delete on the team settings page
 
-![](images/2024-08-13/97f01e31dc51cccd498f776d1024b0b41ec138e6a57752a52aa3c4331b947586.png)  
+![](images/2024-09-08/f1a1641c2eb939f4af9520cdc095c31935ce9eef3a3860d4d85ec460d17aa51c.png)  
