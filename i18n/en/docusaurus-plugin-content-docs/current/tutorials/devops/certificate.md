@@ -10,8 +10,7 @@ Before adding a certificate, you need to [configure cluster nodes](./cluster) fi
 :::
 1. Click `System Certificates` -> `Operations and Integrations` -> `Certificates` to enter the certificate list page. Click `Add Certificate`.
 
-![](images/2024-08-13/3dc1149c38a96ce25cb832e3bcfae2354495ed5d660b8e78162909078a47b558.png)  
-
+![](images/2024-09-11/f7209812e25a587ec30374d0966cd619b8d35774368e7842696a7209b26cc2c7.png)  
 
 3. In the pop-up dialog, upload the key (`.key`) and certificate (`.pem` or `.csr`) files.
 

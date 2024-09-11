@@ -46,28 +46,20 @@ Once completed, click the "Submit" button.
 
 1. Click the `Edit` button next to the route you want to edit.
 
-![](images/2024-09-02/de143af72b4d8d61af26739eececb7364423a14407d68f5e3843032ce1bb1f1a.png)  
+![](images/2024-09-11/c7d609121340b4ac7f258bb68e87ea1544eaa7c27ca4768b8cb681fa1974774b.png)  
+
 
 2. Fill in the route information.
 
-![](images/2024-09-02/7120cd35f132f67a6b234ee2d1326c41c53f749f5352f7e75c61107be8b401c3.png)  
+![](images/2024-09-11/3ec653be370b09c781ac91f91f5da6a14351baf959d2895bc4dcc15f5b3eb2ff.png)  
 
-After filling, click submit.
+After filling, click `Submit`.
 
 ### Deleting a Route
 1. Click the `Delete` button next to the route you want to delete.
 
-![](images/2024-09-02/0d47484a137f38559a8f423fb3649c88f474138baf1d2abc633e0ac4f211e0dd.png)  
-
-2. In the pop-up window, click confirm.
-
-![](images/2024-09-02/ec148b1e3175aa005950b0a440e64c5eadff07c64974ccf87741008da91e8604.png)  
-
-### Deleting an API
-1. Click the `Delete` button next to the API you want to delete.
-
-![](images/2024-08-14/03eddc92ac67816a8f0f6959d272076460112ecef284eb55e7e100921f76374f.png)  
+![](images/2024-09-11/2c86d7ae7a5a25a93d1355ffa1dfc0f11258c3c423426d89fea4bdbb6e72bc4a.png)  
 
 2. In the pop-up window, click `Confirm`.
 
-![](images/2024-08-14/c8a6a3ef88e166476b267c09389562b403bafefc771f24fb8af89bcf6d365f85.png)  
+![](images/2024-09-11/f26fd3f4a09bd4918e57f8e613d754bd2e2bfd1a90d38dce12dcd37a83312b98.png)  

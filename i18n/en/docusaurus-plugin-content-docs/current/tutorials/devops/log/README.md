@@ -49,4 +49,4 @@ In APIPark, the log configuration feature allows users to output log data from t
 
 **Ease of Integration:**
 
-* Supports standardized log protocols (such as Syslog and HTTP), enabling seamless integration with existing log management and analysis tools.
+* Supports standardized log protocols (such as Syslog and HTTP), enabling seamless integration with existing log management and analysis tools.![](images/2024-09-12/e2df2b8df13e800e48901e255e0b9a31ee49c99550ca28974f725e04f47d73d6.png)  

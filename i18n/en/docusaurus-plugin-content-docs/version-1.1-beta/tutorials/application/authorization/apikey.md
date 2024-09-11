@@ -8,7 +8,7 @@ An API Key is a unique string, typically consisting of letters and numbers, used
 
 1. When configuring authentication, select `APIKey` as the authentication type and fill in the authentication information.
 
-![](images/2024-08-13/5c66790932edf2bac9e558eb25630c80e44ca01a19f0b3f4772b0d04a13ba8dd.png)
+![](images/2024-09-11/123de9badfec4e6a45185bd0fdf66b8e3e096f380f2391129808d76bc2869814.png)  
 
 | Field Name       | Description                                      |
 | ---------------- | ------------------------------------------------ |

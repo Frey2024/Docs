@@ -51,7 +51,8 @@ JWT authentication is a method of identity verification based on JSON Web Tokens
 
 1. When configuring authentication, select `Jwt` as the type and fill in the authentication information:
 
-![](images/2024-08-13/8c0630df49ab83fb41265e025b19bdbef2998158dd41d2b97963f23333a5de20.png)  
+![](images/2024-09-11/06e6245e859b6b872a809f4fa3ca8a7a035622bad5cef6f34492acd08a7c857d.png)  
+
 
 | Field Name   | Description                                                    |
 |--------------|----------------------------------------------------------------|
@@ -112,9 +113,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwiaXNzIjoiIGFwaW5
 
 1. When configuring authentication, select `Jwt` as the type and fill in the authentication information:
 
-![](images/2024-08-13/8c0630df49ab83fb41265e025b19bdbef2998158dd41d2b97963f23333a5de20.png)
-
-![](images/2024-08-13/48a8eda9dd68104a788d5ac6f04f6ef5282052477ff4440ff72b044cfd61c911.png)  
+![](images/2024-09-11/b786d33ba76e844fe59635517bb8eb1bc74bd9e1afc4888353dcee68b449175c.png)  
 
 **Configuration Explanation**
 

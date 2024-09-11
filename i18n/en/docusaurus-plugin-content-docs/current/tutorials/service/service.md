@@ -32,37 +32,37 @@ Services displayed in the Service Plaza must meet the following conditions:
 
 Here, we choose `External Service` as the service type and select the `Service Category`. Once completed, click `Submit`.
 
-If there is no service category, please refer to the tutorial [Add Service Category](../../quick/provider/catalogue.md#operation-demonstration)
+If there is no service category, please refer to the tutorial [Add Service Category](../../quick/provider/catalogue.md#operation-demonstration).
 
 ### Edit Service Information
 1. Select the service you want to edit and click to enter the service details page.
 
-![](images/2024-08-14/2ab9c63eb676c4573c1876c281c49c2fcd34ad3d7579a984406c792bcc208c98.png)  
+![](images/2024-09-11/eb62c0ffc2c14170767b082460533ed8b77ec87f03bdb3e17bb4a963c92edcb5.png)  
 
 2. Click `Settings` to enter the service settings page.
 
-![](images/2024-08-14/69abd3dd5fda656c0e5ebb54f91a8b73fc923e329a3c704c1c7d00135454cb01.png)  
+![](images/2024-09-11/06a1a312b1db47f92c32c890c015dce867f62a81e364b25ac71eceea6a4c477d.png)  
 
 3. After modifying, click `Save`.
 
-![](images/2024-08-14/f23ff78b9306fcc2bade3f28072ab999755547cc31ea20de9772e832595572b3.png)  
+![](images/2024-09-11/7c5a032de3e40c7fb5b11f2339c563c98e143f00fd0cd849f6b9d2b99617b247.png)  
 
 ### Edit Service Description
 :::tip
 If the service is an external service and is published, this service description will be displayed in the API market's service details and updated in real-time.
 :::
-1. Click `Instructions`.
+Once you enter the service page, click on `Usage Instructions` and fill in the service usage guide information.
 
-![](images/2024-08-14/0fb3ab2431f94d321004b929a622bffa7dcc14216e18d3f5bab323b0c9c8a8b2.png)  
+![](../../quick/provider/images/2024-09-08/f39ac625a59988c64e9deb15bcf6d2f2b92d0053febcee17b5fc9ed88ed81973.png)  
 
-After editing, click save.
+After editing, click save to finish.
 
 ### Delete Service
 
 1. After entering the service settings page, click `Delete Service` at the bottom.
 
-![](images/2024-08-14/d9f2f173c347788ca800d509527109d86eddc47486f251defc6d3d84a2dbbcca.png)  
+![](images/2024-09-11/7d29b113784871ba525849fd64e6ba7545e453e99df426bc401b0af628458939.png)  
 
 2. In the popup box, click `Confirm`.
 
-![](images/2024-08-14/a788f407eb866bada1146d20506b72ad41662bd465cb53b3179419fdcc0ae89c.png)  
+![](images/2024-09-11/0e0c17d4dc8681fe10525050183a5c74033c73f47d1ecc922042a1358ff25315.png)  

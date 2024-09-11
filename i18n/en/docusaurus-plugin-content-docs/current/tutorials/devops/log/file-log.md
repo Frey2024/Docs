@@ -16,11 +16,11 @@ File Logging: Outputs request information to log files with the following featur
 
 1. Click `System Settings` -> `Operations and Integration` -> `Logs` -> `File Logs` on the left navigation bar, then click `Add File Log`.
 
-![](images/2024-08-14/e3179cdf3f75ff815697f271fd21cebe598b5c1a473be9668acd35c15b27cfca.png)  
+![](images/2024-09-12/78c9e2d151220f3967440548a377bd277cda2d1dcbab92d55bfb0ddbadcb3a2b.png)  
 
 2. Fill in the File Log Configuration
 
-![](images/2024-08-14/1e89c4f712e14377b15a86680c90626f590e9a3dca1cf74d71f106303249788c.png)  
+![](images/2024-09-12/c09fc316fd2a3ad727bf20da76f5211274133446e95da01cdbf85dd827608a39.png)  
 
 **Configuration Explanation**:
 
@@ -86,7 +86,7 @@ After filling it out, click `Submit`.
 
 1. Click the `Go Live` button next to the configuration you want to launch.
 
-![](images/2024-08-14/09046b548e25f27fa9be3a11bb4202273229146304828187ecc9136213af96b8.png)  
+![](images/2024-09-12/56021ac6d47a7bdcb0743b590390eb5272487308f4a30fce4e01285f238e3441.png)  
 
 ### Access the Interface and Print Log Output
 

@@ -17,11 +17,13 @@ The HTTP log plugin sends node access logs to the HTTP service interface via HTT
 
 1. Click on `System Settings` -> `Operations and Integration` -> `Logs` -> `HTTP Logs` in the left navigation bar, and then click `Add HTTP Log`.
 
-![](images/2024-08-14/9ac215d01d8cb8b99b7e077de8acd5922b0ccda23fa5184892f4666d199ee51b.png)  
+![](images/2024-09-12/4affe3a25a12015a772b8c5be97ab835767d096e90e2ce5918ace9ef66a435cb.png)  
+
 
 2. HTTP Log Configuration
 
-![](images/2024-08-14/22b5b45bc7207e53b14182cd255f10fae0901b8b84d12db7f9850a7033b7b202.png)  
+![](images/2024-09-12/71fe66efebedc6eb2fc4ed5680a150af3ce218cb5d3cccbc9aee4d8b1447fe52.png)  
+
 
 **Configuration Description**:
 
@@ -75,13 +77,3 @@ The HTTP log plugin sends node access logs to the HTTP service interface via HTT
    ]
 }
 ```
-
-3. After clicking `Submit`, the HTTP log is added successfully.
-
-![](images/2024-08-14/6b4bc8b69dce0d4611e09cbd84939df864aaf5c0a77983b3b06a84019dd955dd.png)  
-
-### Launch
-
-1. Click the `Launch` button after the configuration to be launched.
-
-![](images/2024-08-14/7553b15c5fa421b0e9fd429f447eccd442c30739ed8d47cc51b13c7386b7c18d.png)  

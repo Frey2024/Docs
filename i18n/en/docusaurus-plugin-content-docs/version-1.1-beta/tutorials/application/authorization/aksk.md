@@ -18,7 +18,7 @@ AK/SK authentication is a security mechanism based on a pair of keys (access key
 
 1. When configuring authentication, select `AkSk` as the authentication type and fill in the authentication details:
 
-![](images/2024-08-13/f737e1aa8cf47cdef5aecc57624ee3c755f115ce8aecfffb4abe25db601b1d5f.png)
+![](images/2024-09-11/b9294acd9be3efd88e77fa2f6ad444f19a59499701647da8f54678a0f2c9b420.png)  
 
 **Configuration Description**
 

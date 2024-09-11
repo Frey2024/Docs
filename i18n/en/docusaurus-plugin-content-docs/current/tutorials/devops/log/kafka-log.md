@@ -12,11 +12,11 @@ The ability to output log contents generated during program execution to a speci
 
 1. Click on `Operations and Integration` -> `Log Configuration` -> `Kafka Logs` in the left navigation bar, then click on `Add Kafka Log`.
 
-![](images/2024-08-14/2f03a576c164e66c8237c71161d9d0bd05f2b7afb0a9e12c24a33b29ac8fb1ca.png)  
+![](images/2024-09-12/47abe177224f68d7262cd945a3128ed0e31cf015147683f9b932155e274fa281.png)  
 
 2. Fill in the Kafka log configuration.
 
-![](images/2024-08-14/7185f19285c125a7282fbc410d240accad92e715102304181449b11a91b977bd.png)  
+![](images/2024-09-12/58eb380d8566719435e7f5d5d30c9b2a3ef33bf275f07f72784ce84abb199446.png)  
 
 **Configuration Explanation**:
 
@@ -65,12 +65,10 @@ The ability to output log contents generated during program execution to a speci
 }
 ```
 
-3. Click `Submit` to complete adding the Kafka log configuration.
-
-![](images/2024-08-14/1f605691833a6c5994caf55dbb11340d320075bc6e0bf95a79d31dfc6dcc5fab.png)  
 
 ### Go Live
 
 1. Click the `Go Live` button next to the configuration that is ready to be deployed.
 
-![](images/2024-08-14/e05ca75c6614cd2ff5349cc2ad82b1da0da67f5a981251181cdd75b9cf4b779a.png)  
+![](images/2024-09-12/7962543aa39f1339104e57de92233127e7e66b38e2a494dc3ca0fc3f22a25658.png)  
+

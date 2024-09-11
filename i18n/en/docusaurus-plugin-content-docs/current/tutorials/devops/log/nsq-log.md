@@ -18,11 +18,12 @@ Allows the log content generated during the program execution to be output to a 
 
 1. Click on `Operations & Integration` -> `Log Configuration` -> `NSQ Log` in the left navigation bar, and click `Add NSQ Log`.
 
-![](images/2024-08-14/1c488fb8e1e3c628f571a11f913f5d2eb101bedfcc3ca7fcd3d3b9d5944a24b2.png)  
+![](images/2024-09-12/a86abe925c5c3f0fb4b56fa2da49a53ed347e78c4a8b38714879605c358d903b.png)  
 
 2. Fill in the NSQ log configuration.
 
-![](images/2024-08-14/63aed79341137d9003274995f2458facd4ccaf66b5f988aff791d7d8a8d54f5b.png)  
+![](images/2024-09-12/fcaf59b95c8a4ad7e7661737888a76e0078cea48dd07ff589fdacb35697c9ef5.png)  
+
 
 **Configuration Explanation**:
 
@@ -77,12 +78,10 @@ Allows the log content generated during the program execution to be output to a 
 }
 ```
 
-3. After clicking `Submit`, the NSQ log configuration is completed.
-
-![](images/2024-08-14/9ab0f9f94698248c7d7011020c33bb6604ac39fa2fdaba4c480d3cc862e54cab.png)  
 
 ### Go Live
 
 1. Click the `Go Live` button next to the configuration to be launched.
 
-![](images/2024-08-14/bfdfcaed659de3734316e9dbe8f4604a3e5e5d536a6ea9d709d7290e886c8966.png)  
+![](images/2024-09-12/4c79a5d03ab0fb13af6929a6488fb6d0bcc19a76c093dab6b099f6e703316ad5.png)  
+

@@ -10,7 +10,7 @@ sidebar_position: 3
 
 The API documentation configured within the service will be displayed in the service plaza after publishing, as shown below:
 
-![](images/2024-09-02/baa97b03fc9b42f29fed67ff53b778ff4a94ca26f8cda55868904f18ac2ed638.png)  
+![](../../quick/provider/images/2024-09-08/9b2401558bb09f3debdd71096fc7e8b7415197ebe176bfa5e5100026d0699d28.png) 
 
 ## Steps
 

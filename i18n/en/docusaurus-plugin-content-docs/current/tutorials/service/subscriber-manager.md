@@ -28,23 +28,22 @@ Subscriber management aims to help platform administrators effectively manage an
 ### Add Subscriber
 1. Select the service that needs approval and enter the internal page of the service.
 
-![](images/2024-08-14/cf9e5cd3b52f3977f4e5503e01234a4e538d9d9c1433c2ed9294e7de4afd00e5.png)
+![](images/2024-09-11/c746b3a74f6de680b089f96cae05a9b71e92c26c9f93dad05f193eaf20833f48.png)  
 
 2. Click on `Subscriber Management` to enter the subscriber list and click `Add Subscriber`.
 
-![](images/2024-08-16/6dff3cf95785536a54c3206aac64825030923ef5d8794add8ea3ab698f868ce3.png)  
+![](images/2024-09-11/4fd9c813b49fb2ccdbc03b779b1b0a3b22c11b688680a7ac8732878be965f3df.png)  
 
 3. In the pop-up window, select the `application` that needs to subscribe to the current service and click `Confirm`.
 
-![](images/2024-08-16/f378af0dca86170325765fc3d57aebcf4687226ba625bcba537059d4a2e86132.png)  
-
+![](images/2024-09-11/b03bf16754a32cd8256c70835ae1b131d0db993cc8933da4c2919c0c951a3cfc.png)   
 
 ### Delete Subscriber
 
 1. Click `Delete` behind the subscriber you want to delete.
 
-![](images/2024-08-16/0387fe269a561f741711a75a481e0106fe0a45fbe2e6410ab8f774135ce06e60.png)  
+![](images/2024-09-11/e6f08f5ee270c4e285b138163615cadc908d4f92c8485d119c57ec3dd7fddbad.png)  
 
 2. Click `Confirm` in the pop-up window.
 
-![](images/2024-08-16/9973596140aa6b0c87ef1c01e7961e80fb2f0ea7ab0a74b3a6628d64b5146a4e.png)  
+![](images/2024-09-11/9716bf3c011d7bf33018afcbde0a92e5a54bad7e7f93a3570c7ce1aaefd1b818.png)  

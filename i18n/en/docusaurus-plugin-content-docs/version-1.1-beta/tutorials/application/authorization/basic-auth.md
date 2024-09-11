@@ -14,7 +14,7 @@ Basic Authorization is an authentication method based on the HTTP protocol, whic
 
 1. When configuring authentication, select `Basic` as the authentication type and fill in the authentication information:
 
-![Example Image](images/2024-08-13/c888ad70e92ecc19a1e58ac86ed9a1916b390dd26c567ea95bc19a706b0fda3e.png)
+![](images/2024-09-11/f914456039f6be5637f6922c934dd417c99c60eb8b37d9ad656bb4770153eafd.png)  
 
 | Field Name       | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
