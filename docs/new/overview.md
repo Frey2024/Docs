@@ -1,12 +1,12 @@
 ![APIPark](images/Banner.png)
 
-<a href="https://www.producthunt.com/posts/apipark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-apipark" target="_blank" rel="noopener"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=501061&theme=light" alt="APIPark - &#0035;1&#0032;Open&#0032;Source&#0032;AI&#0032;Gateway&#0032;&#0038;&#0032;API&#0032;Developer&#0032;Portal | Product Hunt" style="width: 100%; height: 54px;"  height="54" /></a>
+<a href="https://www.producthunt.com/posts/apipark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-apipark" target="_blank" rel="noopener"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=501061&theme=light" alt="APIPark - &#0035;1&#0032;Open&#0032;Source&#0032;AI&#0032;Gateway&#0032;&#0038;&#0032;API&#0032;Developer&#0032;Portal | Product Hunt" style={{ width: '100%', height: '54px' }}  height="54" /></a>
 
-<br>
+<br/>
 
 <b>🦄APIPark 是开源的一站式AI网关和API开发者门户，帮助开发者和企业轻松管理、集成和部署AI服务。APIPark 基于 Apache 2.0 协议开源，这意味着它可以免费商用！</b>
 
-<br>
+<br/>
 
 ✨你可以通过APIPark实现以下需求：
 1. 快速接入 100+ AI 模型，我们支持所有主流的AI公司！
@@ -17,20 +17,21 @@
 6. 通过清晰的图表来监控你的 AI API 使用情况。
 7. 将API请求日志快速输出到第三方日志平台。
 
-<br>
+![<br/> 1](images/2024-10-26/2f3a9b53d1b32c3f26339d8bbb58640db92f6e670e530ee673fad168537423ca.png)  
+<br/>
 
 ✨APIPark 还是一个强大的云原生 API 网关：
 1. 拥有比 Nginx 更高的性能，并且支持集群部署，能够支持大规模的流量。
 2. 将 REST API 在团队内共享，并管理API的调用关系，避免因混乱的API调用导致的管理成本和数据泄露问题。
 
-<br>
+<br/>
 
 # 💌 我们为什么打造 APIPark？
 在打造 APIPark之前，我们已经花费了7年时间打造了一个拥有超过100万开发者用户的API开发和自动化测试平台 Eolink，拥有超过500家企业客户并且获得了红杉资本的数千万元投资。
 
 随着AI和Agent的发展，我们发现许多企业希望将AI接入企业内部系统的API以及第三方的API，让AI Agent能够完成更复杂的任务，而不仅是作为知识问答机器人。因此我们打造了 APIPark，你的一站式 AI 网关和 API开发者门户，加速你的 AI API 开发，并快速打造你的产品或 AI Agent！
 
-<br>
+<br/>
 
 
 # ✨ 快速开始
@@ -42,7 +43,7 @@ APIPark 致力于解决以下问题：
 - 量化数据资产价值：提升数据资产的可见性和估值。
 
 
-<br>
+<br/>
 
 😍 APIPark 部署非常简单，仅需一句命令行即可在 5 分钟内部署好你的 AI 网关和 API 开发者门户。
 
@@ -50,7 +51,7 @@ APIPark 致力于解决以下问题：
 curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.sh
 ```
 
-<br>
+<br/>
 
 # 🔥 特性
 <table>
@@ -150,7 +151,7 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
 </table>
 
 
-<br>
+<br/>
 
 # 🚀 适用场景
 ## 简化 AI 的接入成本
@@ -180,7 +181,7 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
   - 实时监控和追踪 API 使用情况。
   - 全面掌握数据流动，提升数据使用透明度。
 
-<br>
+<br/>
 
 
 # 🚩 路线图
@@ -192,18 +193,18 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
 3. 智能 API 编排，APIPark 会提供一个统一的API入口，自动判断 API 请求的内容来编排多个 API 来完成你的需求。
 
 
-<br>
+<br/>
 
 # 📕文档
 访问 [APIPark文档](https://docs.apipark.com/docs/install) 获取详细的安装指南、API 参考和使用说明。
 
-<br>
+<br/>
 
 # 🧾许可证
 APIPark 使用 Apache 2.0 许可证。更多详情请查看 LICENSE 文件。
 
 
-<br>
+<br/>
 
 # 💌联系我们
 对于企业级功能和专业技术支持，请联系售前专家进行个性化演示、定制方案和获取报价。
@@ -211,6 +212,6 @@ APIPark 使用 Apache 2.0 许可证。更多详情请查看 LICENSE 文件。
 - 网站: https://apipark.com
 - 电子邮件: dev@apipark.com
 
-<br>
+<br/>
 
 🙏 非常感谢所有帮助塑造 APIPark 的人，我们非常高兴听到社区的想法！让我们一起让API和AI的世界变得更强大和有趣。🎉
