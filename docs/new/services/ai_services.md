@@ -45,11 +45,7 @@
 
 ![](images/2024-10-26-15-36-33.png)
 
-<<<<<<< HEAD
 ## 2.创建 API
-=======
-## 2. <span style={{ color: "#999" }}>[可选]</span> 创建 API
->>>>>>> c8517ea2511cf6c934d82c41ed68c538c1cd6f9b
 创建服务之后，APIPark 会自动在服务里创建一个默认的 **聚合 API（Unified API）**，你可以直接通过这个聚合 API 来调用 AI 服务。
 
 如果你需要将 Prompt 提示词和 AI 模型组合成自定义的 AI API，在 API 页面点击 **创建 API**，填写：
