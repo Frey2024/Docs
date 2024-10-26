@@ -48,18 +48,18 @@ APIPark 的 AI Service (AI Gateway) 提供了对多个 AI 模型的统一接入�
 
 ![](images/2024-10-26-15-36-33.png)
 
-## 2. <span style="color:#999">[可选]</span> 创建 API
+## 2. <span style={{ color: "#999" }}>[可选]</span> 创建 API
 创建服务之后，APIPark 会自动在服务里创建一个默认的 **聚合 API（Unified API）**，你可以直接通过这个聚合 API 来调用 AI 服务。
 
 如果你需要将 Prompt 提示词和 AI 模型组合成自定义的 AI API，在 API 页面点击 **创建 API**，填写：
 - **API 名称**
 - **API 请求路径**
 - **Prompt 提示词**：定义AI需要执行的操作，比如你可以通过提示词将AI变成一个翻译API，或者是数据分析API。
-- **变量**：如果你希望将API的请求内容拼接在提示词中，就可以使用变量功能。提示词中可以使用{{param}}的方式定义变量，变量会作为API的请求参数。
+- **变量**：如果你希望将API的请求内容拼接在提示词中，就可以使用变量功能。提示词中可以使用`{{param}}`的方式定义变量，变量会作为API的请求参数。
 - **API 描述**
 - **超时时间**：API 请求一般会限制超时时间，避免大量超时的请求影响 APIPark 的性能。
 - **最大重试次数**：当API请求超时，或者AI模型返回错误时，APIPark 会自动重试请求，如果超过最大重试次数，则 APIPark 会返回错误信息给调用方。
 
-# <span style="color:#999">[可选]</span> 创建消费者并订阅服务
+# <span style={{ color:"#999" }}>[可选]</span> 创建消费者并订阅服务
 
-# <span style="color:#999">[可选]</span> 调用 API
+# <span style={{ color: "#999" }}>[可选]</span> 调用 API
