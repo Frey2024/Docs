@@ -44,15 +44,23 @@ http://api.apipark.com/cda53bf2/demo_translation_api
 
 调用结果如图所示
 ![](images/2024-10-28/e6a7201e96b69e731a151ec5c3b2c2c3e45604659c4a562cd7860d923a48b4a9.png)  
-<summary>Postman</summary>
-填写鉴权信息，如下图
-![](images/2024-10-28/441f6e996094f1a2e1742fd1ec2d313db96ef7d5d1bbded047afd0e768c5545c.png) 
-
-填写请求体信息，如下图
-![](images/2024-10-28/944082a67c0a94f4a9dea0d7e63ff04a436955e647cbd487e4a6f5c3f7aab52f.png)  
-
-响应结果如下图：
-![](images/2024-10-28/6cbf1f796110957fbacb7732aab4d86135d7be26eaba24861f4de09641f8944a.png)  
 
 
 </details>
+
+<details>
+
+<summary>Postman</summary>
+
+填写鉴权信息，如下图
+
+![](images/2024-10-28/441f6e996094f1a2e1742fd1ec2d313db96ef7d5d1bbded047afd0e768c5545c.png) 
+
+填写请求体信息，如下图
+
+![](images/2024-10-28/944082a67c0a94f4a9dea0d7e63ff04a436955e647cbd487e4a6f5c3f7aab52f.png)  
+
+响应结果如下图：
+
+![](images/2024-10-28/6cbf1f796110957fbacb7732aab4d86135d7be26eaba24861f4de09641f8944a.png)  
+</details> 
