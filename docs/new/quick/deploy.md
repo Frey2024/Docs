@@ -103,7 +103,7 @@ InfluxDB 的 API Tokens 是用于认证和授权的令牌，允许用户和应�
 
 ![](../../images/2024-08-27/8044998665919d3202e65765fc47c53d223b00e00b00ed61ca6245a9bd09524b.png)  
 
-4. 将生成的`API Token`复制，后续在[配置APIPark](./quick/pre-work/monitor.md)监控时需要用到。
+4. 将生成的`API Token`复制，后续在[配置APIPark数据源](../system_setting/data_source.md)时需要用到。
 
 ![](../../images/2024-08-27/c18532aa8730ba9f556ec5465de356ddb8eb5efbf0536516dac2a3bf97d13b08.png)  
 
