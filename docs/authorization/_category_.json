@@ -1,6 +1,6 @@
 {
-  "label": "访问授权",
-  "position": 3,
+  "label": "🔐 访问授权",
+  "position": 11,
   "link": {
     "type": "doc",
     "id": "README"
