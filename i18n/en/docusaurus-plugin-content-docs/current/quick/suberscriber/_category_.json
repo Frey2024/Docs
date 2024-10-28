@@ -1,8 +1,0 @@
-{
-  "label": "Getting Started for Service Subscribers",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "As a service subscriber, you can subscribe to and use API services to achieve integration with other systems."
-  }
-}

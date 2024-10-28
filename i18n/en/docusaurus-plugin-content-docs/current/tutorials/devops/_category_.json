@@ -1,8 +1,0 @@
-{
-  "label": "Operations and Integration",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "The Operations and Integration module focuses on the stable operation of the platform and seamless system integration. It covers key features such as cluster management, SSL certificate management, log monitoring and management, and OpenAPI management. By monitoring the system status in real-time, managing certificates and logs, it ensures high availability and security of the system. Additionally, it provides open interfaces to achieve seamless integration with other systems, supporting diverse business needs and enhancing operational efficiency and system integration capabilities."
-  }
-}

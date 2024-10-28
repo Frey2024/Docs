@@ -1,8 +1,0 @@
-{
-  "label": "Service Provider Introduction",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "As a service provider, you will publish and manage API services for other users or systems to call."
-  }
-}
