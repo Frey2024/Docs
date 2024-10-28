@@ -1,18 +1,12 @@
 ---
 sidebar_position: 1
-title: "🦄概述"
+title: "🦄 概述"
 ---
 
 # APIPark
 ![APIPark](images/Banner.png)
 
-<a href="https://www.producthunt.com/posts/apipark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-apipark" target="_blank" rel="noopener"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=501061&theme=light" alt="APIPark - &#0035;1&#0032;Open&#0032;Source&#0032;AI&#0032;Gateway&#0032;&#0038;&#0032;API&#0032;Developer&#0032;Portal | Product Hunt" style={{ width: '100%', height: '54px' }}  height="54" /></a>
-
-<br/>
-
-<b>🦄APIPark 是开源的一站式AI网关和API开发者门户，帮助开发者和企业轻松管理、集成和部署AI服务。APIPark 基于 Apache 2.0 协议开源，这意味着它可以免费商用！</b>
-
-<br/>
+**🦄APIPark 是开源的一站式AI网关和API开发者门户，帮助开发者和企业轻松管理、集成和部署AI服务。APIPark 基于 Apache 2.0 协议开源，这意味着它可以免费商用！**
 
 ✨你可以通过APIPark实现以下需求：
 1. 快速接入 100+ AI 模型，我们支持所有主流的AI公司！

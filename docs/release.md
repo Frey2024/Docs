@@ -25,7 +25,8 @@ APIPark 带来全新的 AI Service (AI Gateway)功能，支持快速接入多个
 8. “应用 Application”改为“消费者 Consumer”，让产品概念更容易理解。
 9. 修复已知的缺陷。
 
-❤️ 感谢以下Github用户的建议让 APIPark 变得更好，排名不分先后：@BeatlessLDJ，@jeak01，@Saury-t，@anyachuan，@dashenbibi，@DukeChaos2023，@Tropical-Strom，@NINGyv179，@EthanLeeDev，@Changeeer，@sunanzhi，@maggieyyy，@guowanjing，@marsdxx，@riverLethe，@scarqin，@krystalisa，@yingjoumong8，@snycloud，@yingjoumong8
+❤️ 感谢以下Github用户的建议让 APIPark 变得更好，排名不分先后：
+@BeatlessLDJ，@jeak01，@Saury-t，@anyachuan，@dashenbibi，@DukeChaos2023，@Tropical-Strom，@NINGyv179，@EthanLeeDev，@Changeeer，@sunanzhi，@maggieyyy，@guowanjing，@marsdxx，@riverLethe，@scarqin，@krystalisa，@yingjoumong8，@snycloud，@yingjoumong8
 
 
 ## 🎉 V1.1 Beta

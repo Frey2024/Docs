@@ -15,7 +15,7 @@
 ## 配置数据源
 
 :::tip
-在进行配置前，您需要配置安装并配置好InfluxDB数据库，若无，请参考教程[配置InfluxDB](../quick/deploy.md#配置influxdb)
+在进行配置前，您需要配置安装并配置好InfluxDB数据库，若无，请参考教程[配置InfluxDB](../deploy.md#配置influxdb)
 :::
 
 1. 点击`系统设置` -> `数据源`，点击后方的`修改设置`。
