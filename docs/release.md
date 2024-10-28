@@ -6,9 +6,6 @@ title: "📜 更新日志"
 # 更新日志
 
 ## 🎉 V1.2 Beta
-
-![](images/v1.2banner.png)
-
 APIPark 带来全新的 AI Service (AI Gateway)功能，支持快速接入多个 AI 模型，帮助开发者快速集成和调用各种 AI 模型。APIPark 通过统一的 API 格式来简化调用过程，减少切换模型的复杂性，并且支持将 Prompt 封装成标准 REST API，以便于 API 的复用和共享。APIPark 支持 API 全生命周期的管理，包括从设计、发布到调用和下线的全过程，同时还提供订阅审批机制，有助于提高数据安全性。
 
 🦄 APIPark 已经发布到 ProductHunt：
@@ -32,9 +29,6 @@ APIPark 带来全新的 AI Service (AI Gateway)功能，支持快速接入多个
 
 
 ## 🎉 V1.1 Beta
-
-![](images/v1.1banner.png)
-
 ✨ 更新：
 1. 发布Demo网站，欢迎访问 https://demo.apipark.com 体验产品
 2. 新增日语、繁体中文语言

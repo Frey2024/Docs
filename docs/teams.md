@@ -24,7 +24,7 @@ title: "🤝 团队"
 ## 为团队添加成员
 在团队详情页面，在侧边栏中选择 **成员**，然后点击 **添加成员**，在弹窗中选择需要加入团队的成员。
 
-> 💡 添加团队成员时，只能从 APIPark 的账号列表中选择成员，如果你还没有为成员创建 APIPark 账号，请查看 [🔗 管理 APIPark 账号](system_setting/account.md)
+> 💡 添加团队成员时，只能从 APIPark 的账号列表中选择成员，如果你还没有为成员创建 APIPark 账号，请查看 [🔗 管理 APIPark 账号](system_setting/account_role.md)
 
 ![](images/2024-10-28-21-53-07.png)
 

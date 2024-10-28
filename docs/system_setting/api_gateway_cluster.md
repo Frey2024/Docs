@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # API 网关
 
 **API 网关** 是 **APIPark** 的核心，API 网关负责转发 API 流量、控制 API 访问权限等功能。
