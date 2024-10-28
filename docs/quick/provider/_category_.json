@@ -1,8 +1,0 @@
-{
-  "label": "服务提供方入门",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description":"作为服务提供方，您将发布和管理API服务，供其他用户或系统调用。"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "label": "服务订阅方入门",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description":"作为服务订阅方，您可以订阅和使用API服务，实现与其他系统的集成。"
-  }
-}
