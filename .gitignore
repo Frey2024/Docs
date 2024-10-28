@@ -57,3 +57,6 @@ temp/
 .pnpm-store/
 /.docusaurus/
 /build/
+
+# 翻译程序
+ai-translate.exe
