@@ -6,59 +6,67 @@ title: "🦄 Overview"
 # APIPark
 ![APIPark](images/Banner.png)
 
-**🦄APIPark is an open-source, all-in-one AI gateway and API developer portal designed to help developers and businesses easily manage, integrate, and deploy AI services. Based on the Apache 2.0 protocol, APIPark is open-source and can be used for commercial purposes for free!**
+**🦄 APIPark is an open-source, all-in-one AI gateway and API developer portal, helping developers and enterprises easily manage, integrate, and deploy AI services. APIPark is open-sourced under the Apache 2.0 license, which means it's free for commercial use!**
 
-✨With APIPark, you can achieve the following:
-1. Quickly integrate over 100 AI models; we support all major AI companies!
-2. Combine AI models and prompts into APIs, such as creating a sentiment analysis API, translation API, or data analysis API with OpenAI GPT4o and some custom prompts.
-3. Standardize the request data format for all AI APIs, so switching AI models or modifying prompts won't affect your app or microservices, simplifying AI usage and maintenance.
-4. Share APIs within your team through the APIPark developer portal.
-5. Manage applications and API keys to ensure the security and stability of your APIs.
+<br>
+
+🦄 APIPark is now on ProductHunt:
+
+<a href="https://www.producthunt.com/posts/apipark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-apipark" target="_blank" rel="noopener"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=501061&theme=light" alt="APIPark - &#0035;1&#0032;Open&#0032;Source&#0032;AI&#0032;Gateway&#0032;&#0038;&#0032;API&#0032;Developer&#0032;Portal | Product Hunt" style={{ width: '100%', height: '54px' }}  height="54" /></a>
+
+<br>
+
+✨ With APIPark, you can:
+1. Quickly connect to 100+ AI models, supporting all mainstream AI Companies!
+2. Combine AI models and prompt templates into APIs, such as creating a sentiment analysis API, translation API, or data analysis API based on OpenAI GPT-4 and some custom prompts.
+3. Standardize the data format of all AI API requests, so switching AI models or modifying prompts won’t affect your APP or microservices, simplifying your AI usage and maintenance costs.
+4. Share APIs within the team through APIPark's developer portal.
+5. Manage calling applications and API keys to ensure your API's security and stability.
 6. Monitor your AI API usage with clear charts.
-7. Quickly output API request logs to third-party log platforms.
+7. Quickly export API request logs to third-party logging platforms.
 
-![<br/> 1](images/2024-10-26/2f3a9b53d1b32c3f26339d8bbb58640db92f6e670e530ee673fad168537423ca.png)  
-<br/>
+<br>
 
-✨APIPark is also a powerful cloud-native API gateway:
-1. It offers higher performance than Nginx and supports cluster deployment to handle large-scale traffic.
-2. Share and manage REST APIs within your team to avoid management costs and data leakage issues due to chaotic API calls.
+✨ APIPark is also a powerful cloud-native API gateway:
+1. It outperforms Nginx with higher performance, supports cluster deployment, and handles large-scale traffic.
+2. Share REST APIs within the team, manage API call relationships, and prevent management costs and data breaches caused by chaotic API calls.
 
-<br/>
 
-# 💌 Why did we create APIPark?
-Before creating APIPark, we spent seven years developing an API development and automated testing platform, Eolink, with over 1 million developer users. We have over 500 corporate clients and received multi-million yuan investment from Sequoia Capital.
+<br>
 
-With the development of AI and Agents, we found many enterprises wanted to integrate AI into internal systems and third-party APIs to enable AI Agents to perform more complex tasks, not just act as Q&A bots. Thus, we created APIPark, your one-stop AI gateway and API developer portal, to accelerate your AI API development and quickly build your products or AI Agents!
+# 💌 Why Did We Build APIPark?
+Before building APIPark, we spent seven years developing an API development and automated testing platform with over 1 million developer users, 500+ enterprise customers, and multi-million-dollar investment from Sequoia Capital.
 
-<br/>
+As AI and Agents evolved, we noticed many enterprises wanted to integrate AI into both internal and third-party APIs, enabling AI agents to perform more complex tasks beyond being just knowledge-based Q&A bots. Hence, we built APIPark—your all-in-one AI gateway and API developer portal to accelerate your AI API development and quickly build your product or AI agent!
+
+<br>
 
 # ✨ Quick Start
-APIPark aims to solve the following problems:
-- Seamlessly integrate various large AI models and package these AI capabilities into APIs for easy calling, simplifying the threshold for using AI models.
+APIPark is designed to solve the following problems:
+- Seamlessly connect to various AI models and package these AI capabilities into APIs for easy calling, significantly reducing the barrier to using AI models.
 - Manage complex AI & API call relationships.
 - Manage API creation, monitoring, and security.
-- Fault detection and troubleshooting: simplify system issue identification and resolution.
-- Quantify data asset value: enhance data asset visibility and valuation.
+- Fault detection and troubleshooting: Simplifying system issue identification and resolution.
+- Quantify data asset value: Enhance the visibility and valuation of data assets.
 
-<br/>
+<br>
 
-😍 Deploying APIPark is straightforward; you can set up your AI gateway and API developer portal within 5 minutes with just one command line.
+😍 Deploying APIPark is incredibly simple. With just one command line, you can deploy your AI gateway and API developer portal in under 5 minutes.
 
 ```
-curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.sh
+curl -sSO  https://download.apipark.com/install/quick-start.sh ;  bash quick-start.sh
 ```
 
-<br/>
+<br>
 
 # 🔥 Features
 <table>
   <tr>
     <th>
-      Quickly Integrate 100+ AI Models
+      Connect to 100+ AI models
     </th>
     <th>
-      Call All AI Using a Unified API Format
+      Unified API to use all AI
     </th>
 
   </tr>
@@ -74,10 +82,10 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
 
   <tr>
     <th>
-      One-Click Prompt to REST API Conversion
+      Transform AI & Prompt to REST API
     </th>
     <th>
-     Quickly Share APIs Within Teams
+      API Developer Portal
     </th>
 
   </tr>
@@ -93,10 +101,10 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
 
   <tr>
     <th>
-      Performance Rivaling Nginx
+      High Performance
     </th>
     <th>
-      Complete API Design, Release, Call, Decommissioning in One Place
+      Manage API lifecycle
     </th>
 
   </tr>
@@ -112,10 +120,10 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
   
   <tr>
     <th>
-      Approve API Call Requests from Tenants
+      Review subscription before allowing API requests
     </th>
     <th>
-      Multi-Tenant Management
+      Manage subscriber
     </th>
   </tr>
 
@@ -130,10 +138,10 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
 
   <tr>
     <th>
-      Detailed Logging of All API Calls
+      Logging
     </th>
     <th>
-      Powerful Data Analysis
+      Analysis
     </th>
   </tr>
 
@@ -148,64 +156,64 @@ curl -sSO https://download.apipark.com/install/quick-start.sh; bash quick-start.
   
 </table>
 
-<br/>
+<br>
 
 # 🚀 Use Cases
-## Simplify AI Integration Cost
-  - Connect to over 100 major models from mainstream AI vendors with a unified API call, without extra adaptation work.
-  - Create new AI APIs by combining AI models and prompts, simplifying AI API development.
+## Simplify AI Integration Costs
+  - Connect to 100+ major models from all mainstream AI vendors, with standardized API calls requiring no additional adaptation work.
+  - Combine AI models and prompt templates to create new AI APIs, simplifying AI API development.
   - Quickly share AI APIs within the team.
 
-## Improve Operational Efficiency
-  - Rapidly build an internal API developer portal.
+## Enhance Operational Efficiency
+  - Quickly build an internal API developer portal.
   - Efficiently manage and call APIs.
-  - Reduce complex inter-system call relationships.
+  - Reduce complex system call relationships.
 
 ## Ensure Compliance and Security
-  - Strong service governance and compliance management features.
-  - Granular management of application call permissions.
-  - Ensure the security and compliance of API calls, reducing enterprise risk.
+  - Powerful service governance and compliance management features.
+  - Granular permission management for application calls.
+  - Ensure API call security and compliance, reducing enterprise risk.
 
 ## Simplify System Troubleshooting
-  - Quickly detect and resolve issues using monitoring and fault diagnosis tools.
+  - Use monitoring and diagnostic tools to quickly identify and resolve issues.
   - Reduce downtime and improve system stability.
 
 ## Multi-Tenant Management and Flexible Subscription
-  - Supports multi-tenant management, catering to different business unit needs.
+  - Supports multi-tenant management to meet different business unit needs.
   - Flexible subscription and approval processes simplify API usage and management.
 
-## Enhance API Observability
+## Improve API Observability
   - Real-time monitoring and tracking of API usage.
-  - Comprehensive understanding of data flow, enhancing data usage transparency.
+  - Fully understand data flow to enhance data usage transparency.
 
-<br/>
+<br>
 
 # 🚩 Roadmap
-We have exciting goals for APIPark: enabling everyone to quickly create their products and AI Agents with AI and APIs!
+We’ve set exciting goals for APIPark: enabling everyone to quickly create their own products and AI agents using AI and APIs!
 
-To achieve this, we plan to add new features to APIPark:
-1. Integrate API markets like Postman, RapidAPI, APISpace, APILayer, etc. You can use APIs from various markets directly through APIPark and make them smarter with AI.
-2. Integrate AI Agents like Langchain, AgentGPT, Auto-GPT, Dify, etc., allowing AI Agents to access your internal systems or third-party APIs via APIPark for more complex tasks.
-3. Intelligent API Orchestration, offering a unified API entry through APIPark to automatically orchestrate multiple APIs based on your request content to meet your needs.
+To achieve this goal, we plan to add new features to APIPark, including:
+1. Integrating with API marketplaces such as Postman, RapidAPI, APISpace, APILayer, etc. You can directly use APIs from various API marketplaces through APIPark and make them smarter using AI.
+2. Integrating AI Agents such as Langchain, AgentGPT, Auto-GPT, Dify, and more, allowing AI Agents to access your internal or third-party APIs through APIPark to complete more complex tasks.
+3. Intelligent API orchestration: APIPark will provide a unified API entry point and automatically orchestrate multiple APIs to fulfill your requests based on the API content.
 
-<br/>
+<br>
 
 # 📕 Documentation
 Visit [APIPark Documentation](https://docs.apipark.com/docs/install) for detailed installation guides, API references, and usage instructions.
 
-<br/>
+<br>
 
 # 🧾 License
-APIPark uses the Apache 2.0 license. For more details, please check the LICENSE file.
+APIPark uses the Apache 2.0 License. For more details, please refer to the LICENSE file.
 
-<br/>
+<br>
 
 # 💌 Contact Us
-For enterprise-level features and professional technical support, please contact our pre-sales experts for personalized demonstrations, customized solutions, and quotes.
+For enterprise-level features and professional technical support, contact our pre-sales experts for personalized demos, customized solutions, and pricing.
 
 - Website: https://apipark.com
 - Email: dev@apipark.com
 
-<br/>
+<br>
 
-🙏 Thank you to everyone who helped shape APIPark. We are excited to hear from the community! Let's make the world of APIs and AI stronger and more exciting together. 🎉
+🙏 A big thanks to everyone who helped shape APIPark. We are thrilled to hear the community’s thoughts! Let’s make the world of APIs and AI stronger and more fun together. 🎉
