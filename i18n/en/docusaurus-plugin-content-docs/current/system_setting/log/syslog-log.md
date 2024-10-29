@@ -1,39 +1,39 @@
-# Syslog Logging
+# Syslog Logs
 
 ## Introduction
 
-Collect request gateway log information and output it to `Syslog`.
+Collect log information from the request gateway and output it to `Syslog`.
 
 ## Features
 
-Able to output the log content generated during program operation to a remote Syslog server.
+Logs generated during program execution can be output to a remote Syslog server.
 
-* Supports multiple request protocols, including TCP, UDP, UNIX
-* Supports setting Syslog output log level
-* Supports log output format types
-* Supports custom log formatting configuration
+* Supports various request protocols, including TCP, UDP, UNIX.
+* Supports setting Syslog output log levels.
+* Supports different log output format types.
+* Supports custom log formatting configurations.
 
 ## Operation Demonstration
 
-### Create Syslog Log Configuration
+### Create a New Syslog Log Configuration
 
-1. Click `Operations and Integration` -> `Syslog Log`, and then click `Add Syslog Log`.
+1. Click `Operations & Integration` -> `Syslog Logs`, then click `Add Syslog Log`.
 
 ![](images/2024-10-27/755dad8523be5e49b0be9acac376c98e303be6f1a6f100b136162c9683e58914.png)  
 
-2. Fill in the Syslog log configuration, and click `Confirm` after completion.
+2. Fill in the Syslog log configuration, and after completion, click `Confirm`.
 
 ![](images/2024-10-27/a890d8d7ebca8747b4936c8c31fd2273163bdde3c797aea0c8d2adb4f0a307e9.png)  
 
-**Configuration Description**:
+**Configuration Instructions**:
 
-| Field Name   | Description                                                   |
-| ------------ | ------------------------------------------------------------- |
-| Network Protocol | The protocol for requesting the Syslog service; supports TCP, UDP, UNIX |
-| Server Address | The address of the Syslog service                           |
-| Log Level    | Syslog output log level, supports ERROR, WARN, INFO, DEBUG, TRACE |
-| Output Format | Format for outputting log content, supports single line, JSON format |
-| Formatting Configuration | Output format template, for configuration tutorial [click here](https://help.apinto.com/docs/formatter) to jump |
+| Field Name   | Description                                               |
+| ------------ | --------------------------------------------------------- |
+| Network Protocol | Protocol for requesting Syslog service, supports TCP, UDP, UNIX |
+| Server Address | Syslog service address                                   |
+| Log Level   | Syslog output log level, supports ERROR, WARN, INFO, DEBUG, TRACE |
+| Output Format | Log content format for output, supports single line, JSON format |
+| Formatting Configuration | Template for the output format, tutorial [click here](https://help.apinto.com/docs/formatter) for more information |
 
 **Formatting Configuration Example**
 
@@ -78,8 +78,8 @@ Able to output the log content generated during program operation to a remote Sy
 }
 ```
 
-### Go Live
+### Release
 
-1. Click the `Go Live` button next to the configuration to be launched.
+1. Click the `Release` button next to the configuration to be released.
 
 ![](images/2024-10-27/fd2998c0454c5cf51054b52d228bc4bc1ffc25e9aa65d1f82f9edc972e31fe78.png)  

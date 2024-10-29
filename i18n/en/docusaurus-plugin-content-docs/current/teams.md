@@ -1,46 +1,46 @@
 ---
 sidebar_position: 6
-title: "🫱🏻‍🫲🏽Team"
+title: "🤝 Team"
 ---
 
 # Team
 
-You can create multiple teams in APIPark. A team is similar to the concept of a tenant, where each team has its own members, services, and consumers. You can use the team feature to manage complex organizational structures.
+In APIPark, you can create multiple teams. A team is similar to the concept of a tenant, where each team has its own members, services, and consumers. The team function helps manage complex organizational structures.
 
-## Team Management
+![](images/2024-10-28-22-11-37.png)
 
-### Create a New Team
+## Create a Team
+Go to the **Workspace** module, select **Team** in the sidebar, and then click **Create Team** and fill in the following details:
 
-1. Click `Workspace` -> `Team` -> `Create New Team`.
+- **Team Name**
+- **Team ID**: A unique identifier for the team, which cannot be changed once saved.
+- **Team Administrator**: The team admin has the highest privileges within the team, able to manage members, add services, and consumers within the team.
+- **Description**
 
-![](images/2024-10-27/cd907e5cc59c79d0f0669576086f247e3356f9f817c676fdf250caeaecf38e2d.png)  
+![](images/cd907e5cc59c79d0f0.png)
 
-2. Enter the team information in the pop-up box, and click `Confirm` once completed.
+## Add Members to the Team
+In the team details page, select **Members** in the sidebar, and then click **Add Member**. In the popup, choose the member you want to add to the team.
 
-![](images/2024-10-27/68deae1d7e1c859bd0b41ed8d7acfc90187e658f26d19ed749a536003066d33b.png)  
+> 💡 When adding team members, you can only choose from the list of accounts in APIPark. If you haven't created an APIPark account for the members, please refer to [🔗 Manage APIPark Account](system_setting/account_role.md)
 
-**Field Descriptions**
+![](images/2024-10-28-21-53-07.png)
 
-<table><thead><tr><th width="203">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Team Name</td><td>Used to identify and distinguish different teams. The team name should be clear and precise, accurately reflecting the team's responsibilities and tasks.</td></tr><tr><td>Team ID</td><td>A unique identifier for the team, customizable.</td></tr><tr><td>Team Leader</td><td>Designate a team leader. Once the team is created, this person will be given the team administrator role.</td></tr><tr><td>Description</td><td>Record and display detailed information and notes related to a specific team.</td></tr></tbody></table>
+## Create AI Services
+APIPark's AI Service (AI Gateway) provides unified access management for multiple AI models, helping developers quickly integrate and call various AI models. It simplifies the calling process with a standardized API format, reduces the complexity of model switching, and supports encapsulating prompts into standard REST APIs for easier API reuse and sharing. APIPark supports full API lifecycle management, including the entire process from design, publishing, to calling and deprecation, and provides a subscription approval mechanism to enhance data security.
 
-## Team Members
+If you need to create AI services within the team, please visit [🔗 Create AI Services](services/ai_services.md)
 
-In the member module, administrators can easily add or remove team members and assign appropriate permissions to each member, ensuring that they can only access and operate on the parts they are authorized to.
+## Create REST Services
+APIPark has a powerful cloud-native API gateway that offers better performance than Nginx and supports cluster deployments for large-scale traffic.
 
-The permission setting feature makes team management more flexible and secure. Different roles can be assigned different access levels, such as administrator, developer, viewer, etc. This not only enhances work transparency and efficiency but also ensures the secure management of sensitive information.
+By sharing REST APIs within the team through APIPark and managing API call relationships, you can avoid management costs and data leakage problems caused by chaotic API calls.
 
-:::tip
-Members added to the team by default receive the `Application Developer` team role.
-:::
+If you need to create REST services within the team, please visit [🔗 Create REST Services](services/rest_services.md)
 
-1. Click on the team where you want to add members to enter the team page.
+## Create Consumers
+In APIPark, a **Consumer** is an entity that **subscribes to services** and **calls APIs**. Consumers gain the right to call the APIs within the service by subscribing, ensuring data security and compliance with access rights.
 
-![](images/2024-10-27/98fd6e72940f15c1056b5e61c3a70b77f9cc6b914337c2cf39d224df39c43dab.png)  
+Consumers support various authentication methods, including API Key, Basic, JWT, and AK/SK, to meet different application security requirements.
 
-2. Click the `Account` navigation bar, then click the `Add Member` button.
-
-![](images/2024-10-27/239b78f6971cffa26fe2fb25fa3015c8b9158088ee3d351d87a503c5e4029460.png)  
-
-3. In the pop-up box, select the members you want to add to the team and move them to the right.
-
-Once the operation is completed, click Confirm.
+If you need to create consumers within the team, please visit [🔗 Create Consumers](consumers.md)

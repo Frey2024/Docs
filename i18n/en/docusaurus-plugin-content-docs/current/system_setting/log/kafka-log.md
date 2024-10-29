@@ -1,26 +1,28 @@
-# Kafka Logs
+# Kafka Log
 
-Collect log information from the request gateway and output it to `Kafka`, facilitating user operations such as log analysis.
+Collect the log information from the request gateway and output it to `Kafka`, making it convenient for users to perform secondary operations, such as log analysis.
 
 ## Features
 
-Able to output log content generated during program operation to a specified Kafka cluster queue.
+Enables the output of log content generated during the program's operation to a specified Kafka cluster queue.
 
 ## Operation Demonstration
 
-### Create Kafka Log Configuration
+### Create a New Kafka Log Configuration
 
-1. Click `Operations & Integration` -> `Kafka Logs`, then click `Add Kafka Log`.
+1. Click `Operations and Integration` -> `Kafka Log`, and then click `Add Kafka Log`.
 
 ![](images/2024-10-27/d72cd60d6aa0cc7dd50abdae4cb249d32958647bdb3ec9247ab7a59a001ae8c9.png)  
+  
 
-2. Fill in the Kafka log configuration and click save after completing it.
+2. Fill in the Kafka log configuration, and click save after completing.
 
 ![](images/2024-10-27/af7b625f886ecb0976abff3844bee6382dc1094e9b2d909c1c1597a52743c086.png)  
 
+
 **Configuration Description**:
 
-<table><thead><tr><th width="208">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Version</td><td>Kafka version</td></tr><tr><td>Server Address</td><td>Kafka server address, multiple addresses separated by commas</td></tr><tr><td>Topic</td><td>Kafka service Topic information</td></tr><tr><td>Partition Type</td><td>Partition selection method, defaults to hash; if partition_key is empty when hash is selected, random selection is used</td></tr><tr><td>Partition</td><td>When Partition Type is manual, specify the partition number here</td></tr><tr><td>Partition Key</td><td>When Partition Type is hash, specify the hash value here</td></tr><tr><td>Request Timeout</td><td>Timeout, in seconds</td></tr><tr><td>Output Format</td><td>Output log content format, supporting single-line and Json formats</td></tr><tr><td>Formatting Configuration</td><td>Output format template, configuration tutorial <a href="https://help.apinto.com/docs/formatter">click here</a> to jump</td></tr></tbody></table>
+<table><thead><tr><th width="208">Field Name</th><th>Description</th></tr></thead><tbody><tr><td>Version</td><td>Kafka version</td></tr><tr><td>Server Address</td><td>Kafka service address, multiple addresses separated by commas</td></tr><tr><td>Topic</td><td>Kafka service Topic information</td></tr><tr><td>Partition Type</td><td>Method of choosing partition, default is hash. When choosing hash, if partition_key is empty, random selection is used</td></tr><tr><td>Partition</td><td>When Partition Type is manual, this specifies the partition number</td></tr><tr><td>Partition Key</td><td>When Partition Type is hash, this specifies the hash value</td></tr><tr><td>Request Timeout</td><td>Timeout duration, in seconds</td></tr><tr><td>Output Format</td><td>The format of output log content, supports single-line, JSON format output</td></tr><tr><td>Formatting Configuration</td><td>Output format template, for configuration tutorial <a href="https://help.apinto.com/docs/formatter">click here</a> to jump</td></tr></tbody></table>
 
 **Example Formatting Configuration**
 
@@ -65,8 +67,9 @@ Able to output log content generated during program operation to a specified Kaf
 }
 ```
 
+
 ### Go Live
 
-1. Click the `Go Live` button next to the configuration to be deployed.
+1. Click the `Go Live` button beside the configuration to be launched.
 
 ![](images/2024-10-27/c845bf600f1fbe39e778397a87b20abe3c05f525fb154d80efbe17ea36a0e7cf.png)  
