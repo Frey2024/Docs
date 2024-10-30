@@ -8,13 +8,13 @@ title: "🦄 Overview"
 
 **🦄 APIPark is an open-source, all-in-one AI gateway and API developer portal, helping developers and enterprises easily manage, integrate, and deploy AI services. APIPark is open-sourced under the Apache 2.0 license, which means it's free for commercial use!**
 
-<br>
+<br/>
 
 🦄 APIPark is now on ProductHunt:
 
 <a href="https://www.producthunt.com/posts/apipark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-apipark" target="_blank" rel="noopener"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=501061&theme=light" alt="APIPark - &#0035;1&#0032;Open&#0032;Source&#0032;AI&#0032;Gateway&#0032;&#0038;&#0032;API&#0032;Developer&#0032;Portal | Product Hunt" style={{ width: '100%', height: '54px' }}  height="54" /></a>
 
-<br>
+<br/>
 
 ✨ With APIPark, you can:
 1. Quickly connect to 100+ AI models, supporting all mainstream AI Companies!
@@ -25,21 +25,21 @@ title: "🦄 Overview"
 6. Monitor your AI API usage with clear charts.
 7. Quickly export API request logs to third-party logging platforms.
 
-<br>
+<br/>
 
 ✨ APIPark is also a powerful cloud-native API gateway:
 1. It outperforms Nginx with higher performance, supports cluster deployment, and handles large-scale traffic.
 2. Share REST APIs within the team, manage API call relationships, and prevent management costs and data breaches caused by chaotic API calls.
 
 
-<br>
+<br/>
 
 # 💌 Why Did We Build APIPark?
 Before building APIPark, we spent seven years developing an API development and automated testing platform with over 1 million developer users, 500+ enterprise customers, and multi-million-dollar investment from Sequoia Capital.
 
 As AI and Agents evolved, we noticed many enterprises wanted to integrate AI into both internal and third-party APIs, enabling AI agents to perform more complex tasks beyond being just knowledge-based Q&A bots. Hence, we built APIPark—your all-in-one AI gateway and API developer portal to accelerate your AI API development and quickly build your product or AI agent!
 
-<br>
+<br/>
 
 # ✨ Quick Start
 APIPark is designed to solve the following problems:
@@ -49,7 +49,7 @@ APIPark is designed to solve the following problems:
 - Fault detection and troubleshooting: Simplifying system issue identification and resolution.
 - Quantify data asset value: Enhance the visibility and valuation of data assets.
 
-<br>
+<br/>
 
 😍 Deploying APIPark is incredibly simple. With just one command line, you can deploy your AI gateway and API developer portal in under 5 minutes.
 
@@ -57,7 +57,7 @@ APIPark is designed to solve the following problems:
 curl -sSO  https://download.apipark.com/install/quick-start.sh ;  bash quick-start.sh
 ```
 
-<br>
+<br/>
 
 # 🔥 Features
 <table>
@@ -156,7 +156,7 @@ curl -sSO  https://download.apipark.com/install/quick-start.sh ;  bash quick-sta
   
 </table>
 
-<br>
+<br/>
 
 # 🚀 Use Cases
 ## Simplify AI Integration Costs
@@ -186,7 +186,7 @@ curl -sSO  https://download.apipark.com/install/quick-start.sh ;  bash quick-sta
   - Real-time monitoring and tracking of API usage.
   - Fully understand data flow to enhance data usage transparency.
 
-<br>
+<br/>
 
 # 🚩 Roadmap
 We’ve set exciting goals for APIPark: enabling everyone to quickly create their own products and AI agents using AI and APIs!
@@ -196,17 +196,17 @@ To achieve this goal, we plan to add new features to APIPark, including:
 2. Integrating AI Agents such as Langchain, AgentGPT, Auto-GPT, Dify, and more, allowing AI Agents to access your internal or third-party APIs through APIPark to complete more complex tasks.
 3. Intelligent API orchestration: APIPark will provide a unified API entry point and automatically orchestrate multiple APIs to fulfill your requests based on the API content.
 
-<br>
+<br/>
 
 # 📕 Documentation
 Visit [APIPark Documentation](https://docs.apipark.com/docs/install) for detailed installation guides, API references, and usage instructions.
 
-<br>
+<br/>
 
 # 🧾 License
 APIPark uses the Apache 2.0 License. For more details, please refer to the LICENSE file.
 
-<br>
+<br/>
 
 # 💌 Contact Us
 For enterprise-level features and professional technical support, contact our pre-sales experts for personalized demos, customized solutions, and pricing.
@@ -214,6 +214,6 @@ For enterprise-level features and professional technical support, contact our pr
 - Website: https://apipark.com
 - Email: dev@apipark.com
 
-<br>
+<br/>
 
 🙏 A big thanks to everyone who helped shape APIPark. We are thrilled to hear the community’s thoughts! Let’s make the world of APIs and AI stronger and more fun together. 🎉
