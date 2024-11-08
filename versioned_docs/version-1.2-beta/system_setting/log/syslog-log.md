@@ -86,3 +86,7 @@
 
 ![](images/2024-10-27/fd2998c0454c5cf51054b52d228bc4bc1ffc25e9aa65d1f82f9edc972e31fe78.png)  
 
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
+
