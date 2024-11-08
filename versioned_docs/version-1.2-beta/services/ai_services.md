@@ -103,3 +103,7 @@ APIPark 提供了 **API 门户** 功能，用户可以将服务发布到 API 门
 # <span style={{ color: "#999" }}>[可选]</span> 调用 API
 
 [🔗 了解更多：调用API](../call_api.md)
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
