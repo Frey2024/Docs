@@ -38,3 +38,7 @@ title: 审核消费者
 如果你希望修改服务的审核方式，进入服务管理界面，点击侧边栏的 **服务设置**，修改 **审核** 选项，然后点击保存即可。
 
 ![](images/2024-10-29-00-23-41.png)
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
