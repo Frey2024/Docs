@@ -44,3 +44,7 @@ APIPark 的用户角色分为 **系统级别角色** 和 **团队级别角色**�
 你需要先创建团队，并且将成员加入团队后，才能设置成员在该团队的角色。
 
 如需创建团队，请查看：[🔗 创建团队](../teams.md)
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
