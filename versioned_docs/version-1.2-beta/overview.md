@@ -214,4 +214,7 @@ APIPark 使用 Apache 2.0 许可证。更多详情请查看 LICENSE 文件。
 
 <br/>
 
-🙏 非常感谢所有帮助塑造 APIPark 的人，我们非常高兴听到社区的想法！让我们一起让API和AI的世界变得更强大和有趣。🎉
+ 
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。[访问Github](https://github.com/APIParkLab/APIPark) 
