@@ -15,6 +15,7 @@
 ### 新建文件日志配置
 
 1. 点击`系统设置` -> `日志` -> `文件日志`，点击`添加文件日志`。
+
 ![](images/2024-10-27/6e7b1882deeaa54d04707f7b6837a86918b368c297b5d35f634ef87c52dc4072.png)  
 
 
@@ -88,4 +89,8 @@
 1. 点击待上线配置后方的`上线`按钮。
 
 ![](images/2024-10-27/05a9a722c4dd14850c93058f6f8d0afa08b6f43b49e0f7bb0cf08c307962f792.png)  
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
  
