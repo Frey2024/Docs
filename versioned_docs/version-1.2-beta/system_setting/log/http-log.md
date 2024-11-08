@@ -81,3 +81,7 @@ HTTP日志插件通过HTTP请求的方式，将节点访问日志发送给HTTP�
 1. 点击待上线配置后方的`上线`按钮。
 
 ![](images/2024-10-27/97afa03e6f42743faadd58cb15753e1f93c770197851752de7836ff149afc6b3.png)  
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
