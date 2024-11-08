@@ -8,7 +8,7 @@ title: "📜 更新日志"
 ## 🎉 V1.2 Beta
 APIPark 带来全新的 AI Service (AI Gateway)功能，支持快速接入多个 AI 模型，帮助开发者快速集成和调用各种 AI 模型。APIPark 通过统一的 API 格式来简化调用过程，减少切换模型的复杂性，并且支持将 Prompt 封装成标准 REST API，以便于 API 的复用和共享。APIPark 支持 API 全生命周期的管理，包括从设计、发布到调用和下线的全过程，同时还提供订阅审批机制，有助于提高数据安全性。
 
-🦄 APIPark 已经发布到 ProductHunt：
+🦄 APIPark 已经发布到 ProductHunt 并获得周榜最佳产品：
 
 <a href="https://www.producthunt.com/posts/apipark?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-apipark" target="_blank" rel="noopener"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=501061&theme=light" alt="APIPark - &#0035;1&#0032;Open&#0032;Source&#0032;AI&#0032;Gateway&#0032;&#0038;&#0032;API&#0032;Developer&#0032;Portal | Product Hunt" style={{ width: '100%', height: '54px' }}  height="54" /></a>
 
@@ -36,3 +36,8 @@ APIPark 带来全新的 AI Service (AI Gateway)功能，支持快速接入多个
 4. 加入分析统计，方便了解企业内部API调用情况
 5. 强化API文档，全面支持 OpenAPI V2.0、V3.0 格式，可以上传 OpenAPI YAML 文件创建 API 文档
 6. 优化产品体验
+   
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
