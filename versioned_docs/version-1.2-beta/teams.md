@@ -46,3 +46,7 @@ APIPark 内置了强大的云原生 API 网关，拥有比 Nginx 更高的性能
 消费者支持多种鉴权方式，包括API Key、Basic、JWT、以及AK/SK等方式，满足不同应用场景的安全需求。
 
 如果需要在团队内创建消费者，请查看 [🔗 创建消费者](consumers.md)
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
