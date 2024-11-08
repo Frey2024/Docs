@@ -83,4 +83,8 @@
 1. 点击待上线配置后方的`上线`按钮。
 
 ![](images/2024-10-27/d0ed6a8ef56b7303297b97630d0ad2a99d11f834b9764660e6fb613fecd118c6.png)  
+
+🎉APIPark 还刚刚起步，我们期待与开源爱好者共同探索 AI+API 的无限可能。您的每个 Issue 对我们来说都至关重要。
+
+🙏如果 APIPark 对您有所帮助，请在 GitHub 上为我们点亮星星，让更多人发现 APIPark。 [访问Github](https://github.com/APIParkLab/APIPark) 
  
